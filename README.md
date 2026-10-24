@@ -40,4 +40,4 @@ Run from a disposable copy if you want to leave the release tree unchanged: runn
 
 ## Publication status
 
-Prepared release candidate: `ged-v1-r4`. Public release and Zenodo deposit require author approval. No DOI is claimed until actually issued. See `PUBLICATION.json` for publication tracking. Licensing is pending author choice; no new reuse license is granted by this preparation.
+Prepared release candidate: `ged-v1-r4`. Public release and Zenodo deposit require author approval. No DOI is claimed until actually issued. See `PUBLICATION.json` for publication tracking. Creator: **Malin Hess**. Code is licensed under **MIT**; documentation, configurations, data and research outputs are licensed under **CC BY-NC 4.0**. See `LICENSE.md` for scope and `LICENSE-MIT` for code terms. The noncommercial restriction applies to research materials; code remains available under MIT terms.

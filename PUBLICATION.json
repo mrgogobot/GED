@@ -7,6 +7,11 @@
   "release_commit": null,
   "zenodo_record_url": null,
   "doi": null,
-  "license": "pending author choice",
-  "historical_provenance": "Original run provenance remains unchanged; historical Git fields are null."
+  "license": {
+    "code": "MIT",
+    "research_materials": "CC-BY-NC-4.0",
+    "scope": "LICENSE.md"
+  },
+  "historical_provenance": "Original run provenance remains unchanged; historical Git fields are null.",
+  "creator": "Malin Hess"
 }
