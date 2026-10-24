@@ -1,0 +1,16 @@
+{
+  "experiment_id": "GED-V1-R3",
+  "r2_dependency_sha256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "radius_m": "100",
+  "core_volume_fraction": "0.5",
+  "density_iron_kg_m3": "7870",
+  "density_ice_kg_m3": "917",
+  "heat_capacity_iron_J_kg_K": "450",
+  "heat_capacity_ice_J_kg_K": "2100",
+  "initial_temperature_K": "250",
+  "environment_temperature_K": "200",
+  "escaped_fractions": ["0", "0.25", "0.5", "0.75", "1"],
+  "report_probe_R": "2"
+}

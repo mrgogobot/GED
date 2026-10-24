@@ -1,0 +1,25 @@
+test_central_gravity_zero (test_ged_v1_r1.GEDV1R1Tests.test_central_gravity_zero) ... ok
+test_enclosed_total_mass (test_ged_v1_r1.GEDV1R1Tests.test_enclosed_total_mass) ... ok
+test_exterior_null (test_ged_v1_r1.GEDV1R1Tests.test_exterior_null) ... ok
+test_half_core_volume (test_ged_v1_r1.GEDV1R1Tests.test_half_core_volume) ... ok
+test_heat_thresholds_differ (test_ged_v1_r1.GEDV1R1Tests.test_heat_thresholds_differ) ... ok
+test_independent_point_mass (test_ged_v1_r1.GEDV1R1Tests.test_independent_point_mass) ... ok
+test_interior_gravity_differs (test_ged_v1_r1.GEDV1R1Tests.test_interior_gravity_differs) ... ok
+test_mass_independent_sum (test_ged_v1_r1.GEDV1R1Tests.test_mass_independent_sum) ... ok
+test_matched_masses (test_ged_v1_r1.GEDV1R1Tests.test_matched_masses) ... ok
+test_nonzero_toy_prediction (test_ged_v1_r1.GEDV1R1Tests.test_nonzero_toy_prediction) ... ok
+test_normalized_contrast (test_ged_v1_r1.GEDV1R1Tests.test_normalized_contrast) ... ok
+test_one_ppm_threshold (test_ged_v1_r1.GEDV1R1Tests.test_one_ppm_threshold) ... ok
+test_output_is_finite_and_unobserved (test_ged_v1_r1.GEDV1R1Tests.test_output_is_finite_and_unobserved) ... ok
+test_radial_falloff (test_ged_v1_r1.GEDV1R1Tests.test_radial_falloff) ... ok
+test_reject_inside_toy (test_ged_v1_r1.GEDV1R1Tests.test_reject_inside_toy) ... ok
+test_reject_nonfinite_heat (test_ged_v1_r1.GEDV1R1Tests.test_reject_nonfinite_heat) ... ok
+test_reject_wrong_volume_fraction (test_ged_v1_r1.GEDV1R1Tests.test_reject_wrong_volume_fraction) ... ok
+test_thermal_response_differs (test_ged_v1_r1.GEDV1R1Tests.test_thermal_response_differs) ... ok
+test_volume_units (test_ged_v1_r1.GEDV1R1Tests.test_volume_units) ... ok
+test_zero_toy_parameter_returns_null (test_ged_v1_r1.GEDV1R1Tests.test_zero_toy_parameter_returns_null) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK

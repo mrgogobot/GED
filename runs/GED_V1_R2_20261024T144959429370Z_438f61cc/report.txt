@@ -1,0 +1,13 @@
+GED-V1-R2 — GRAVITATIONAL BINDING / MASS-ENERGY ACCOUNTING
+================================================================
+ESTABLISHED-PHYSICS NUMERICAL MODEL — NOT A NEW GRAVITY DETECTION
+Each body constituent mass: 1.840344976473E+10 kg
+Iron core U: -1.618472609527E+8 J
+Ice core U:  -1.221340398892E+8 J
+B -> A binding energy release: 3.971322106352E+7 J
+If energy ESCAPES, delta mass: -4.418691764239E-10 kg
+If energy STAYS as heat, delta mass: 0 kg
+Probe radius: 2 R
+Reference exterior g: 3.070753619118E-5 m/s^2
+Verdict: numerical baseline only; no additional information channel tested.
+Tests: PASS

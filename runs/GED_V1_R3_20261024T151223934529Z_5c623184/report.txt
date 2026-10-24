@@ -1,0 +1,14 @@
+GED-V1-R3 — ENTROPIC EXHAUST / STRUCTURAL PERSISTENCE
+=====================================================================
+NUMERICAL THERMODYNAMIC CONTROL — NOT A NEW GRAVITY DETECTION
+Potential release (B -> A): 3.971322106352E+7 J
+Stable case: thermal entropy ΔS=0 J/K; exported energy=0 J
+Isolated case: exported energy=0 J; ΔS_body=1.588528831522E+5 J/K
+50% export: ΔS_body=7.942644185156E+4 J/K; ΔS_bath=9.928305265879E+4 J/K
+100% export: body ΔM=-4.418691764239E-10 kg
+100% export: body Δg at probe=-7.372918610515E-25 m/s^2
+Every scenario: energy balance=0; modeled thermal entropy >=0.
+Interpretation: entropy can increase without energy leaving the body.
+Entropic exhaust is not a required cost of a stable bound state.
+No new information-carrying gravity channel derived or detected.
+Tests: PASS

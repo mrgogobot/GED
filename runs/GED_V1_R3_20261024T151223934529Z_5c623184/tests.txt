@@ -1,0 +1,51 @@
+test_bath_temperature_changes_entropy_not_mass (test_ged_v1_r3.GEDV1R3Tests.test_bath_temperature_changes_entropy_not_mass) ... ok
+test_binding_potentials_negative (test_ged_v1_r3.GEDV1R3Tests.test_binding_potentials_negative) ... ok
+test_binding_release_matches_user_r2 (test_ged_v1_r3.GEDV1R3Tests.test_binding_release_matches_user_r2) ... ok
+test_binding_release_positive (test_ged_v1_r3.GEDV1R3Tests.test_binding_release_positive) ... ok
+test_body_temperature_monotone_with_retention (test_ged_v1_r3.GEDV1R3Tests.test_body_temperature_monotone_with_retention) ... ok
+test_capacity_independently_weighted (test_ged_v1_r3.GEDV1R3Tests.test_capacity_independently_weighted) ... ok
+test_closed_entropy_increases_without_export (test_ged_v1_r3.GEDV1R3Tests.test_closed_entropy_increases_without_export) ... ok
+test_closed_exterior_gravity_does_not_change (test_ged_v1_r3.GEDV1R3Tests.test_closed_exterior_gravity_does_not_change) ... ok
+test_closed_keeps_all_release_as_heat (test_ged_v1_r3.GEDV1R3Tests.test_closed_keeps_all_release_as_heat) ... ok
+test_closed_mass_does_not_change (test_ged_v1_r3.GEDV1R3Tests.test_closed_mass_does_not_change) ... ok
+test_closed_no_export (test_ged_v1_r3.GEDV1R3Tests.test_closed_no_export) ... ok
+test_delta_g_matches_independent_formula (test_ged_v1_r3.GEDV1R3Tests.test_delta_g_matches_independent_formula) ... ok
+test_energy_balance_all_fractions (test_ged_v1_r3.GEDV1R3Tests.test_energy_balance_all_fractions) ... ok
+test_entropy_nonnegative_all_fractions (test_ged_v1_r3.GEDV1R3Tests.test_entropy_nonnegative_all_fractions) ... ok
+test_external_entropy_formula (test_ged_v1_r3.GEDV1R3Tests.test_external_entropy_formula) ... ok
+test_fractional_gravity_matches_mass_fraction (test_ged_v1_r3.GEDV1R3Tests.test_fractional_gravity_matches_mass_fraction) ... ok
+test_full_export_body_mass_decreases (test_ged_v1_r3.GEDV1R3Tests.test_full_export_body_mass_decreases) ... ok
+test_full_export_delta_g_negative (test_ged_v1_r3.GEDV1R3Tests.test_full_export_delta_g_negative) ... ok
+test_full_export_does_not_warm_body (test_ged_v1_r3.GEDV1R3Tests.test_full_export_does_not_warm_body) ... ok
+test_full_export_environment_gains_entropy (test_ged_v1_r3.GEDV1R3Tests.test_full_export_environment_gains_entropy) ... ok
+test_full_export_leaves_no_heat (test_ged_v1_r3.GEDV1R3Tests.test_full_export_leaves_no_heat) ... ok
+test_full_export_matches_r2_mass_equivalence (test_ged_v1_r3.GEDV1R3Tests.test_full_export_matches_r2_mass_equivalence) ... ok
+test_global_mass_energy_balance_all_fractions (test_ged_v1_r3.GEDV1R3Tests.test_global_mass_energy_balance_all_fractions) ... ok
+test_gravity_delta_inverse_square_distance (test_ged_v1_r3.GEDV1R3Tests.test_gravity_delta_inverse_square_distance) ... ok
+test_half_export_mass_half_of_full (test_ged_v1_r3.GEDV1R3Tests.test_half_export_mass_half_of_full) ... ok
+test_half_export_split (test_ged_v1_r3.GEDV1R3Tests.test_half_export_split) ... ok
+test_independent_volume_mass (test_ged_v1_r3.GEDV1R3Tests.test_independent_volume_mass) ... ok
+test_iron_core_more_gravitationally_bound (test_ged_v1_r3.GEDV1R3Tests.test_iron_core_more_gravitationally_bound) ... ok
+test_pinned_r2_source (test_ged_v1_r3.GEDV1R3Tests.test_pinned_r2_source) ... ok
+test_r2_inventory_matches (test_ged_v1_r3.GEDV1R3Tests.test_r2_inventory_matches) ... ok
+test_reject_duplicate_sweep (test_ged_v1_r3.GEDV1R3Tests.test_reject_duplicate_sweep) ... ok
+test_reject_fraction_below_zero (test_ged_v1_r3.GEDV1R3Tests.test_reject_fraction_below_zero) ... ok
+test_reject_fraction_over_one (test_ged_v1_r3.GEDV1R3Tests.test_reject_fraction_over_one) ... ok
+test_reject_missing_endpoint_sweep (test_ged_v1_r3.GEDV1R3Tests.test_reject_missing_endpoint_sweep) ... ok
+test_reject_negative_specific_heat (test_ged_v1_r3.GEDV1R3Tests.test_reject_negative_specific_heat) ... ok
+test_reject_nonfinite_fraction (test_ged_v1_r3.GEDV1R3Tests.test_reject_nonfinite_fraction) ... ok
+test_reject_nonpositive_environment_temperature (test_ged_v1_r3.GEDV1R3Tests.test_reject_nonpositive_environment_temperature) ... ok
+test_reject_nonpositive_temperature (test_ged_v1_r3.GEDV1R3Tests.test_reject_nonpositive_temperature) ... ok
+test_reject_probe_inside_asteroid (test_ged_v1_r3.GEDV1R3Tests.test_reject_probe_inside_asteroid) ... ok
+test_reject_unequal_material_inventory (test_ged_v1_r3.GEDV1R3Tests.test_reject_unequal_material_inventory) ... ok
+test_reject_unsorted_sweep (test_ged_v1_r3.GEDV1R3Tests.test_reject_unsorted_sweep) ... ok
+test_results_are_unobserved (test_ged_v1_r3.GEDV1R3Tests.test_results_are_unobserved) ... ok
+test_stable_has_zero_modeled_entropy_change (test_ged_v1_r3.GEDV1R3Tests.test_stable_has_zero_modeled_entropy_change) ... ok
+test_stable_mass_does_not_change (test_ged_v1_r3.GEDV1R3Tests.test_stable_mass_does_not_change) ... ok
+test_stable_requires_no_exhaust (test_ged_v1_r3.GEDV1R3Tests.test_stable_requires_no_exhaust) ... ok
+test_thermal_entropy_uses_logarithm (test_ged_v1_r3.GEDV1R3Tests.test_thermal_entropy_uses_logarithm) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.009s
+
+OK

@@ -1,0 +1,18 @@
+GED-V1-R1 — SPHERICAL NULL / TOY COUPLING SCOUT
+================================================================
+Radius: 100 m; mass of each: 18403449764.7 kg
+Matched conventional surface g: 0.000122830144765 m/s^2
+Interior g at 50.0 m: A 0.000110011749095; B 1.28183956697e-05 m/s^2
+Ice shell melted (A): 75.490991%
+Iron shell melted (B): 0.000000%
+CONVENTIONAL: external gravitational fields identical.
+
+HYPOTHETICAL TOY ONLY — NOT DETECTED OR PHYSICALLY DERIVED:
+alpha=1e-06; p=2
+At 2.0 R: toy delta=0.5 ppm of baseline
+At 2.0 R: toy delta=1.53537680887e-11 m/s^2
+Illustrative alpha sensitivity: 2e-06
+
+VERDICT: Conventional baseline verified numerically. No evidence of new gravity.
+Heat threshold is NOT full binding energy. No laboratory observation.
+Tests: PASS

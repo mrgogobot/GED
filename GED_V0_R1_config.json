@@ -1,0 +1,38 @@
+{
+  "experiment_id": "GED-V0-R1",
+  "physics_model": "Newtonian gravitational baseline and simplified equilibrium heating, not an information-field model",
+  "constants": {
+    "G_m3_kg-1_s-2": 6.67430e-11,
+    "c_m_s-1": 299792458.0
+  },
+  "sphere_radius_m": 100.0,
+  "materials": {
+    "iron": {
+      "density_kg_m-3": 7870.0,
+      "melting_point_K": 1811.0,
+      "specific_heat_J_kg-1_K-1": 450.0,
+      "latent_heat_of_fusion_J_kg-1": 247000.0
+    },
+    "ice": {
+      "density_kg_m-3": 917.0,
+      "melting_point_K": 273.15,
+      "specific_heat_J_kg-1_K-1": 2100.0,
+      "latent_heat_of_fusion_J_kg-1": 333000.0
+    }
+  },
+  "heating": {
+    "initial_temperature_K": 250.0,
+    "deposited_energy_J_kg-1": 300000.0
+  },
+  "layered_bodies": {
+    "iron_volume_fraction": 0.5,
+    "internal_probe_radius_fraction": 0.5,
+    "external_probe_radius_fraction": 2.0
+  },
+  "fragmentation": {
+    "fragments_per_axis": 10,
+    "surface_gap_fraction_of_diameter": 0.1,
+    "near_probe_x_m": 150.0,
+    "far_probe_x_m": 10000.0
+  }
+}

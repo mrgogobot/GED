@@ -1,0 +1,51 @@
+{
+  "baseline": {
+    "exterior_fields_equal": true,
+    "interior_g_A_m_s2": 0.00011001174909507583,
+    "interior_g_B_m_s2": 1.2818395669654962e-05,
+    "interior_probe_radius_m": 50.0,
+    "shell_heat_to_full_melt_A_J_kg": 381614.99999999994,
+    "shell_heat_to_full_melt_B_J_kg": 949450.0,
+    "shell_melt_fraction_A": 0.7549099099099101,
+    "shell_melt_fraction_B": 0.0,
+    "surface_g_A_m_s2": 0.00012283014476473082,
+    "surface_g_B_m_s2": 0.00012283014476473076
+  },
+  "experiment_id": "GED-V1-R1",
+  "geometry_and_mass": {
+    "A_core_shell": "iron/ice",
+    "B_core_shell": "ice/iron",
+    "core_radius_m": 79.37005259840998,
+    "core_volume_fraction": 0.5,
+    "mass_A_kg": 18403449764.72901,
+    "mass_B_kg": 18403449764.729,
+    "radius_m": 100.0
+  },
+  "hypothetical_gate": {
+    "alpha_dimensionless": 1e-06,
+    "alpha_sensitivity_at_assumed_uncertainty": 2e-06,
+    "chi_A": -1.0000000000000002,
+    "chi_B": 1.0,
+    "hypothetical_measurement_difference_uncertainty_ppm": 1.0,
+    "p_dimensionless": 2,
+    "probe_g_baseline_m_s2": 3.0707536191182704e-05,
+    "probe_r_over_R": 2.0,
+    "toy_difference_m_s2": 1.535376808873591e-11,
+    "toy_difference_ppm_baseline": 0.4999999997767505
+  },
+  "limitations": [
+    "No gravitational measurement has been performed.",
+    "Toy coupling is stipulated, not derived; it may be inconsistent with conserved/covariant theories.",
+    "Heat-to-melt threshold is not nuclear, atomic, or fracture binding energy.",
+    "Bulk densities fixed; no E/c^2 corrections, phase-change mass redistribution, or full GR.",
+    "Static spherical idealization excludes multipoles, rotation, environment and tides.",
+    "Nominal measurement uncertainty is illustrative; no actual device error budget."
+  ],
+  "model": {
+    "baseline": "Newtonian spherical g=G*M_enclosed(r)/r^2",
+    "hypothetical": "g_TOY=(G*M/r^2)*(1+alpha*chi_shell*(R/r)^p), r>=R",
+    "toy_is_derived_or_validated": false
+  },
+  "observation_performed": false,
+  "verdict": "CONVENTIONAL_NULL_PLUS_HYPOTHETICAL_TOY_SCOUT"
+}

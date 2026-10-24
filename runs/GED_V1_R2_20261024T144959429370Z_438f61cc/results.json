@@ -1,0 +1,54 @@
+{
+  "U_ice_core_J": "-122134039.889155445881126185493283771290337817438643308739774",
+  "U_iron_core_J": "-161847260.952672914993822068867649873614878576486570705156024",
+  "at_distance_R": "2",
+  "baseline_exterior_g_m_s2": "0.0000307075361911827058432996027635112844434458521292340541296765",
+  "binding_energy_release_B_to_A_J": "39713221.063517469112695883374366102324540759047927396416250",
+  "classification": "ESTABLISHED_PHYSICS_WEAK_FIELD_SCOUT",
+  "constituent_inventory_mass_kg": "18403449764.7290087909141649392513278956270183415393698992713",
+  "core_radius_m": "79.3700525984099737375852819636154130195746663949926504904143",
+  "delta_U_B_to_A_J": "-39713221.063517469112695883374366102324540759047927396416250",
+  "experiment_id": "GED-V1-R2",
+  "mass_change_if_release_escapes_kg": "-4.41869176423924522152281973048381034472722526933050846348340E-10",
+  "mass_change_if_release_retained_kg": "0",
+  "model_notes": [
+    "Only Newtonian gravitational self-binding U is computed; not nuclear, chemical or fracture energy.",
+    "Binding energy is already part of ordinary mass-energy accounting; no GED extra field term.",
+    "In closed rearrangement, reduced potential energy is offset by increased heat.",
+    "In open rearrangement, symmetric outward radiation exports binding energy.",
+    "Delta-g is fixed-radius point-mass weak-field bookkeeping, not a full GR solution.",
+    "Constituent mass inventory is distinguished from already-bound measured mass.",
+    "High-precision arithmetic is not evidence of measurable gravitational sensitivity.",
+    "No dynamic rearrangement, external mechanical work, material failure, recoil or field propagation modeled.",
+    "No observation; cannot confirm or disprove an additional information field."
+  ],
+  "observation_performed": false,
+  "radius_m": "100",
+  "scenarios": {
+    "B_to_A_binding_release_escapes": {
+      "delta_E_J": "-39713221.063517469112695883374366102324540759047927396416250",
+      "delta_M_kg": "-4.41869176423924522152281973048381034472722526933050846348340E-10",
+      "delta_g_m_s2": "-7.37291861051549859550243893179202384595322990377315315945682E-25",
+      "fractional_delta_g": "-2.40101275615610677681274687625408251588265270955188541634508E-20"
+    },
+    "B_to_A_binding_release_retained_as_heat": {
+      "delta_E_J": "0",
+      "delta_M_kg": "0",
+      "delta_g_m_s2": "0E-16",
+      "fractional_delta_g": "0E+48"
+    },
+    "absorbed_heat_kept": {
+      "delta_E_J": "5521034929418702.63727424948177539836868810550246181096978139",
+      "delta_M_kg": "0.0614297982369170477370435965692741525274376527111941303107711",
+      "delta_g_m_s2": "1.02500225593163862927837519145576619053469281372580745983295E-16",
+      "fractional_delta_g": "3.33795016816085529652226989454402997482259730342488712339872E-12"
+    },
+    "same_heat_radiated": {
+      "delta_E_J": "-5521034929418702.63727424948177539836868810550246181096978139",
+      "delta_M_kg": "-0.0614297982369170477370435965692741525274376527111941303107711",
+      "delta_g_m_s2": "-1.02500225593163862927837519145576619053469281372580745983295E-16",
+      "fractional_delta_g": "-3.33795016816085529652226989454402997482259730342488712339872E-12"
+    }
+  },
+  "source_v1_r1_run": "GED_V1_R1_20261024T142603147532Z_e1deca20"
+}

@@ -1,0 +1,16 @@
+GED-V1-R4 — EQUAL ENERGY / DIFFERENT ENTROPY
+================================================================
+CONVENTIONAL NUMERICAL CONTROL; NOT NEW GRAVITY OR AN OBSERVATION
+Reference mass: 1.256637061436E+10 kg
+Control A macrostate entropy difference: 2.408491394548E-21 J/K
+Control A mass-energy difference: 0 J; gravity difference: 0 m/s^2 (assumed degenerate model)
+Control B entropy produced on relaxation: 2.564921561794E+11 J/K
+Control B energy transfer out of hot core: 3.141592653590E+14 J
+Control B interior g difference at zone boundary: -3.703401978686E-17 m/s^2
+Control B exterior g difference: 0E-64 m/s^2
+Control C equal-entropy reverse-gradient internal delta g: -7.406803957372E-17 m/s^2
+Control C entropy difference: 0 J/K; energy difference: 0 J; exterior g difference: 0 (model)
+No thermal energy exported; global energy ledger is zero in this approximate control.
+Pressure, gravitational self-energy shifts and full GR effects are outside model.
+No independent entropy-coupled gravitational information channel derived or detected.
+Tests: PASS

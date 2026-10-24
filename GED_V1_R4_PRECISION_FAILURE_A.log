@@ -1,0 +1,238 @@
+test_control_A_nonzero_entropy_difference (test_ged_v1_r4.GEDV1R4Tests.test_control_A_nonzero_entropy_difference) ... ok
+test_control_A_zero_energy (test_ged_v1_r4.GEDV1R4Tests.test_control_A_zero_energy) ... ok
+test_control_A_zero_gravity (test_ged_v1_r4.GEDV1R4Tests.test_control_A_zero_gravity) ... ok
+test_core_loses_thermal_energy_on_relaxation (test_ged_v1_r4.GEDV1R4Tests.test_core_loses_thermal_energy_on_relaxation) ... ok
+test_does_not_claim_new_gravity (test_ged_v1_r4.GEDV1R4Tests.test_does_not_claim_new_gravity) ... ok
+test_energy_mass_equivalence_independent (test_ged_v1_r4.GEDV1R4Tests.test_energy_mass_equivalence_independent) ... ok
+test_energy_transfer_conserved (test_ged_v1_r4.GEDV1R4Tests.test_energy_transfer_conserved) ... FAIL
+test_entropic_macrostate_aligned_zero (test_ged_v1_r4.GEDV1R4Tests.test_entropic_macrostate_aligned_zero) ... ok
+test_entropic_macrostate_many_configurations (test_ged_v1_r4.GEDV1R4Tests.test_entropic_macrostate_many_configurations) ... ok
+test_entropy_analytic_independent (test_ged_v1_r4.GEDV1R4Tests.test_entropy_analytic_independent) ... ok
+test_entropy_increases_with_thermal_relaxation (test_ged_v1_r4.GEDV1R4Tests.test_entropy_increases_with_thermal_relaxation) ... ok
+test_equal_zone_rest_mass (test_ged_v1_r4.GEDV1R4Tests.test_equal_zone_rest_mass) ... FAIL
+test_experiment_is_not_observational (test_ged_v1_r4.GEDV1R4Tests.test_experiment_is_not_observational) ... ok
+test_exterior_g_same_at_both_endpoints (test_ged_v1_r4.GEDV1R4Tests.test_exterior_g_same_at_both_endpoints) ... FAIL
+test_field_at_outer_boundary (test_ged_v1_r4.GEDV1R4Tests.test_field_at_outer_boundary) ... ok
+test_field_center_zero (test_ged_v1_r4.GEDV1R4Tests.test_field_center_zero) ... ok
+test_field_continuity_at_core_boundary (test_ged_v1_r4.GEDV1R4Tests.test_field_continuity_at_core_boundary) ... ok
+test_half_volume_geometry (test_ged_v1_r4.GEDV1R4Tests.test_half_volume_geometry) ... FAIL
+test_heat_stays_inside (test_ged_v1_r4.GEDV1R4Tests.test_heat_stays_inside) ... ok
+test_independent_heat_capacity (test_ged_v1_r4.GEDV1R4Tests.test_independent_heat_capacity) ... FAIL
+test_independent_reference_mass (test_ged_v1_r4.GEDV1R4Tests.test_independent_reference_mass) ... ok
+test_independent_spherical_volume (test_ged_v1_r4.GEDV1R4Tests.test_independent_spherical_volume) ... ok
+test_interior_delta_g_independent (test_ged_v1_r4.GEDV1R4Tests.test_interior_delta_g_independent) ... ok
+test_interior_field_changes (test_ged_v1_r4.GEDV1R4Tests.test_interior_field_changes) ... ok
+test_limits_mark_full_gr_not_solved (test_ged_v1_r4.GEDV1R4Tests.test_limits_mark_full_gr_not_solved) ... ok
+test_macrostate_combinatorial_symmetry (test_ged_v1_r4.GEDV1R4Tests.test_macrostate_combinatorial_symmetry) ... ok
+test_mass_same_at_both_endpoints (test_ged_v1_r4.GEDV1R4Tests.test_mass_same_at_both_endpoints) ... FAIL
+test_microstate_entropy_float_crosscheck (test_ged_v1_r4.GEDV1R4Tests.test_microstate_entropy_float_crosscheck) ... ok
+test_microstate_multiplicity_independent (test_ged_v1_r4.GEDV1R4Tests.test_microstate_multiplicity_independent) ... ok
+test_newtonian_exterior_analytic (test_ged_v1_r4.GEDV1R4Tests.test_newtonian_exterior_analytic) ... FAIL
+test_opposite_gradients_different_interior_g (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_different_interior_g) ... ok
+test_opposite_gradients_equal_entropy (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_entropy) ... FAIL
+test_opposite_gradients_equal_exterior_mass (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_exterior_mass) ... FAIL
+test_opposite_gradients_equal_total_energy (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_total_energy) ... FAIL
+test_pinned_r2_sha256_matches (test_ged_v1_r4.GEDV1R4Tests.test_pinned_r2_sha256_matches) ... ok
+test_reject_identical_macrostate_counts (test_ged_v1_r4.GEDV1R4Tests.test_reject_identical_macrostate_counts) ... ok
+test_reject_inner_probe_outside (test_ged_v1_r4.GEDV1R4Tests.test_reject_inner_probe_outside) ... ok
+test_reject_invalid_G (test_ged_v1_r4.GEDV1R4Tests.test_reject_invalid_G) ... ok
+test_reject_invalid_excitation (test_ged_v1_r4.GEDV1R4Tests.test_reject_invalid_excitation) ... ok
+test_reject_negative_radius (test_ged_v1_r4.GEDV1R4Tests.test_reject_negative_radius) ... ok
+test_reject_nonfinite_density (test_ged_v1_r4.GEDV1R4Tests.test_reject_nonfinite_density) ... ok
+test_reject_noninteger_site_count (test_ged_v1_r4.GEDV1R4Tests.test_reject_noninteger_site_count) ... ok
+test_reject_nonpositive_low_temperature (test_ged_v1_r4.GEDV1R4Tests.test_reject_nonpositive_low_temperature) ... ok
+test_reject_outer_probe_inside (test_ged_v1_r4.GEDV1R4Tests.test_reject_outer_probe_inside) ... ok
+test_reject_unequal_zone_volume (test_ged_v1_r4.GEDV1R4Tests.test_reject_unequal_zone_volume) ... ok
+test_reject_zero_temperature (test_ged_v1_r4.GEDV1R4Tests.test_reject_zero_temperature) ... ok
+test_reject_zero_temperature_offset (test_ged_v1_r4.GEDV1R4Tests.test_reject_zero_temperature_offset) ... ok
+test_reverse_gradient_is_twice_individual_interior_change (test_ged_v1_r4.GEDV1R4Tests.test_reverse_gradient_is_twice_individual_interior_change) ... FAIL
+test_samples_include_interior_and_exterior (test_ged_v1_r4.GEDV1R4Tests.test_samples_include_interior_and_exterior) ... FAIL
+test_shell_gains_same_energy (test_ged_v1_r4.GEDV1R4Tests.test_shell_gains_same_energy) ... FAIL
+test_thermal_energy_final_zero_relative_reference (test_ged_v1_r4.GEDV1R4Tests.test_thermal_energy_final_zero_relative_reference) ... FAIL
+test_thermal_energy_initial_zero_relative_reference (test_ged_v1_r4.GEDV1R4Tests.test_thermal_energy_initial_zero_relative_reference) ... FAIL
+test_thermal_final_uniform (test_ged_v1_r4.GEDV1R4Tests.test_thermal_final_uniform) ... ok
+test_thermal_initial_cold_shell (test_ged_v1_r4.GEDV1R4Tests.test_thermal_initial_cold_shell) ... ok
+test_thermal_initial_hot_core (test_ged_v1_r4.GEDV1R4Tests.test_thermal_initial_hot_core) ... ok
+
+======================================================================
+FAIL: test_energy_transfer_conserved (test_ged_v1_r4.GEDV1R4Tests.test_energy_transfer_conserved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 117, in test_energy_transfer_conserved
+    self.assertEqual(self.B['transfer_energy_balance_J'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-45' != '0'
+- 0E-45
++ 0
+
+
+======================================================================
+FAIL: test_equal_zone_rest_mass (test_ged_v1_r4.GEDV1R4Tests.test_equal_zone_rest_mass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 61, in test_equal_zone_rest_mass
+    self.assertEqual(self.body['reference_mass'], 2*self.body['mass_zone'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('12566370614.3591729538505735331180115367886775975004232838998') != Decimal('12566370614.35917295385057353')
+
+======================================================================
+FAIL: test_exterior_g_same_at_both_endpoints (test_ged_v1_r4.GEDV1R4Tests.test_exterior_g_same_at_both_endpoints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 144, in test_exterior_g_same_at_both_endpoints
+    self.assertEqual(self.B['exterior_g_delta_at_probe_m_s2'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-64' != '0'
+- 0E-64
++ 0
+
+
+======================================================================
+FAIL: test_half_volume_geometry (test_ged_v1_r4.GEDV1R4Tests.test_half_volume_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 50, in test_half_volume_geometry
+    relative_close(self, (self.body['a']/self.body['R'])**3, Decimal('0.5'))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 29, in relative_close
+    test.assertLessEqual(abs(lhs-rhs)/scale, Decimal(tol))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('2E-28') not less than or equal to Decimal('1E-32')
+
+======================================================================
+FAIL: test_independent_heat_capacity (test_ged_v1_r4.GEDV1R4Tests.test_independent_heat_capacity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 64, in test_independent_heat_capacity
+    relative_close(self, self.body['C'], self.body['mass_zone']*Decimal(1000))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 29, in relative_close
+    test.assertLessEqual(abs(lhs-rhs)/scale, Decimal(tol))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('7.01864118350531199477647232904838454476314002768006910634599E-29') not less than or equal to Decimal('1E-32')
+
+======================================================================
+FAIL: test_mass_same_at_both_endpoints (test_ged_v1_r4.GEDV1R4Tests.test_mass_same_at_both_endpoints)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 141, in test_mass_same_at_both_endpoints
+    self.assertEqual(self.B['model_exterior_mass_difference_kg'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-49' != '0'
+- 0E-49
++ 0
+
+
+======================================================================
+FAIL: test_newtonian_exterior_analytic (test_ged_v1_r4.GEDV1R4Tests.test_newtonian_exterior_analytic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 165, in test_newtonian_exterior_analytic
+    relative_close(self, actual, independent_g)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 29, in relative_close
+    test.assertLessEqual(abs(lhs-rhs)/scale, Decimal(tol))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('1.44143262288714835856485033768026418629551842598692394172721E-28') not less than or equal to Decimal('1E-32')
+
+======================================================================
+FAIL: test_opposite_gradients_equal_entropy (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_entropy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 184, in test_opposite_gradients_equal_entropy
+    self.assertEqual(self.C['entropy_difference_reverse_minus_initial_J_K'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-48' != '0'
+- 0E-48
++ 0
+
+
+======================================================================
+FAIL: test_opposite_gradients_equal_exterior_mass (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_exterior_mass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 190, in test_opposite_gradients_equal_exterior_mass
+    self.assertEqual(self.C['model_exterior_mass_difference_kg'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-49' != '0'
+- 0E-49
++ 0
+
+
+======================================================================
+FAIL: test_opposite_gradients_equal_total_energy (test_ged_v1_r4.GEDV1R4Tests.test_opposite_gradients_equal_total_energy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 187, in test_opposite_gradients_equal_total_energy
+    self.assertEqual(self.C['energy_difference_reverse_minus_initial_J'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-45' != '0'
+- 0E-45
++ 0
+
+
+======================================================================
+FAIL: test_reverse_gradient_is_twice_individual_interior_change (test_ged_v1_r4.GEDV1R4Tests.test_reverse_gradient_is_twice_individual_interior_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 196, in test_reverse_gradient_is_twice_individual_interior_change
+    relative_close(self, self.C['core_boundary_g_difference_reverse_minus_initial_m_s2'],
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   2*ged.D(self.B['interior_g_delta_at_core_boundary_m_s2']))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 29, in relative_close
+    test.assertLessEqual(abs(lhs-rhs)/scale, Decimal(tol))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('6.41107068424470666755928838861362543457211988079047467880423E-29') not less than or equal to Decimal('1E-32')
+
+======================================================================
+FAIL: test_samples_include_interior_and_exterior (test_ged_v1_r4.GEDV1R4Tests.test_samples_include_interior_and_exterior)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 201, in test_samples_include_interior_and_exterior
+    self.assertEqual(self.samples[-1]['delta_g_uniform_minus_gradient_m_s2'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-64' != '0'
+- 0E-64
++ 0
+
+
+======================================================================
+FAIL: test_shell_gains_same_energy (test_ged_v1_r4.GEDV1R4Tests.test_shell_gains_same_energy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 126, in test_shell_gains_same_energy
+    self.assertEqual(ged.D(self.B['shell_thermal_energy_transfer_J']),
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     -ged.D(self.B['core_thermal_energy_transfer_J']))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('314159265358979.323846264338327950288419716939937510582097495') != Decimal('314159265358979.3238462643383')
+
+======================================================================
+FAIL: test_thermal_energy_final_zero_relative_reference (test_ged_v1_r4.GEDV1R4Tests.test_thermal_energy_final_zero_relative_reference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 114, in test_thermal_energy_final_zero_relative_reference
+    self.assertEqual(self.B['relaxed']['dE_total_J'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-47' != '0'
+- 0E-47
++ 0
+
+
+======================================================================
+FAIL: test_thermal_energy_initial_zero_relative_reference (test_ged_v1_r4.GEDV1R4Tests.test_thermal_energy_initial_zero_relative_reference)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R4_build/test_ged_v1_r4.py", line 111, in test_thermal_energy_initial_zero_relative_reference
+    self.assertEqual(self.B['initial']['dE_total_J'], '0')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '0E-45' != '0'
+- 0E-45
++ 0
+
+
+----------------------------------------------------------------------
+Ran 55 tests in 0.006s
+
+FAILED (failures=15)

@@ -1,0 +1,124 @@
+{
+  "classification": "CONVENTIONAL_WEAK_FIELD_ENTROPY_CONTROL",
+  "control_A_equal_local_stress_energy": {
+    "assumptions": "perfectly degenerate noninteracting binary labels; identical local stress-energy by construction",
+    "energy_difference_J": "0",
+    "entropy_A_J_K": "0E-29",
+    "entropy_B_J_K": "2.40849139454764962055417786673161335117206831636478536300576E-21",
+    "entropy_B_minus_A_J_K": "2.40849139454764962055417786673161335117206831636478536300576E-21",
+    "gravitational_field_difference_m_s2": "0",
+    "macrostate_A_count": 0,
+    "macrostate_B_count": 128,
+    "multiplicity_A": "1",
+    "multiplicity_B": "5768658823449206338089748357862286887740211701975162032608436567264518750790",
+    "site_count": 256
+  },
+  "control_B_thermal_redistribution": {
+    "core_thermal_energy_transfer_J": "-314159265358979.323846264338327950288419716939937510582097495",
+    "energy_exported_J": "0",
+    "entropy_produced_in_relaxation_J_K": "256492156179.432622085656051034853746718920966746267471953815",
+    "exterior_g_delta_at_probe_m_s2": "0E-64",
+    "initial": {
+      "M_core_kg": "6283185307.18308197016740108587942477354793354966220877707629",
+      "M_shell_kg": "6283185307.17609098368317244723858676324074404783821450682351",
+      "M_total_kg": "12566370614.3591729538505735331180115367886775975004232838998",
+      "T_core_K": "300",
+      "T_shell_K": "200",
+      "dE_core_J": "314159265358979.323846264338327950288419716939937510582097495",
+      "dE_shell_J": "-314159265358979.323846264338327950288419716939937510582097495",
+      "dE_total_J": "0E-45",
+      "dM_core_kg": "0.00349549324211431932041900515359475091199713512639092581716006",
+      "dM_shell_kg": "-0.00349549324211431932041900515359475091199713512639092581716006",
+      "dS_thermal_J_K": "-256492156179.432622085656051034853746718920966746267471953815"
+    },
+    "interior_g_delta_at_core_boundary_m_s2": "-3.70340197868592418363723233723742771857527168534E-17",
+    "model_exterior_mass_difference_kg": "0E-49",
+    "relaxed": {
+      "M_core_kg": "6283185307.17958647692528676655900576839433879875021164194990",
+      "M_shell_kg": "6283185307.17958647692528676655900576839433879875021164194990",
+      "M_total_kg": "12566370614.3591729538505735331180115367886775975004232838998",
+      "T_core_K": "250",
+      "T_shell_K": "250",
+      "dE_core_J": "0E-47",
+      "dE_shell_J": "0E-47",
+      "dE_total_J": "0E-47",
+      "dM_core_kg": "0E-47",
+      "dM_shell_kg": "0E-47",
+      "dS_thermal_J_K": "0E-47"
+    },
+    "shell_thermal_energy_transfer_J": "314159265358979.323846264338327950288419716939937510582097495",
+    "thermal_energy_difference_final_minus_initial_J": "0E-47",
+    "transfer_energy_balance_J": "0E-45"
+  },
+  "control_C_equal_entropy_different_interior_distribution": {
+    "core_boundary_g_difference_reverse_minus_initial_m_s2": "-7.40680395737184836727446467447485543715054337068E-17",
+    "energy_difference_reverse_minus_initial_J": "0E-45",
+    "entropy_difference_reverse_minus_initial_J_K": "0E-48",
+    "model_exterior_mass_difference_kg": "0E-49",
+    "reverse_gradient": {
+      "M_core_kg": "6283185307.17609098368317244723858676324074404783821450682351",
+      "M_shell_kg": "6283185307.18308197016740108587942477354793354966220877707629",
+      "M_total_kg": "12566370614.3591729538505735331180115367886775975004232838998",
+      "T_core_K": "200",
+      "T_shell_K": "300",
+      "dE_core_J": "-314159265358979.323846264338327950288419716939937510582097495",
+      "dE_shell_J": "314159265358979.323846264338327950288419716939937510582097495",
+      "dE_total_J": "0E-45",
+      "dM_core_kg": "-0.00349549324211431932041900515359475091199713512639092581716006",
+      "dM_shell_kg": "0.00349549324211431932041900515359475091199713512639092581716006",
+      "dS_thermal_J_K": "-256492156179.432622085656051034853746718920966746267471953815"
+    }
+  },
+  "experiment_id": "GED-V1-R4",
+  "limitations": [
+    "No observational or laboratory data; this is a controlled numerical thought experiment.",
+    "Control A uses stipulated exactly degenerate binary internal labels; it does not model an actual spin material or spontaneous dynamics.",
+    "Boltzmann entropy uses macrostate multiplicity, not entropy assigned to a fully specified pure microstate.",
+    "Control B assumes fixed geometry, equal constant heat capacities, and uniform energy density inside each radial zone.",
+    "Heat flow is prescribed; rate, conductivity, transport stresses and equilibration dynamics are not simulated.",
+    "Thermal expansion, pressure/stresses, gravitational potential-energy work and exact GR equilibrium are ignored.",
+    "The fixed reference mass includes reference thermal energy; only deviations C*(T-Tref)/c^2 are added.",
+    "Equality of exterior fields refers to the Newtonian spherical monopole and fixed total mass-energy in this approximate model.",
+    "In complete GR, total gravitating mass includes the full stress-energy and boundary contributions; this is not a solved Einstein/TOV model.",
+    "An entropy-only gravitational coupling is neither derived nor tested; no parameter is invented to force an effect."
+  ],
+  "material": {
+    "core_radius_m": "79.3700525984099737375852819636154130195746663949926504904143",
+    "heat_capacity_each_zone_J_K": "6283185307179.58647692528676655900576839433879875021164194990",
+    "radius_m": "100",
+    "reference_mass_kg": "12566370614.3591729538505735331180115367886775975004232838998",
+    "reference_temperature_K": "250"
+  },
+  "new_gravity_channel_detected": false,
+  "observation_performed": false,
+  "sampling": [
+    {
+      "delta_g_uniform_minus_gradient_m_s2": "-2.33299705458436014402725660966374460119424789744E-17",
+      "g_gradient_m_s2": "0.0000419358636957320439934882850674850447660909728905104800408404",
+      "g_uniform_m_s2": "0.000041935863695708714022942441466044772199994335444498537561866",
+      "radius_m": "50.0",
+      "radius_over_R": "0.5"
+    },
+    {
+      "delta_g_uniform_minus_gradient_m_s2": "-3.70340197868592418363723233723742771857527168534E-17",
+      "g_gradient_m_s2": "0.0000665690341458000720531084271395902228098767307017795936370693",
+      "g_uniform_m_s2": "0.0000665690341457630380333215678977538504865043564245938409202159",
+      "radius_m": "79.3700525984099737375852819636154130195746663949926504904143",
+      "radius_over_R": "0.793700525984099737375852819636154130195746663949926504904143"
+    },
+    {
+      "delta_g_uniform_minus_gradient_m_s2": "0E-64",
+      "g_gradient_m_s2": "0.0000838717273914174280458848829320895443999886708889970751237324",
+      "g_uniform_m_s2": "0.0000838717273914174280458848829320895443999886708889970751237324",
+      "radius_m": "100",
+      "radius_over_R": "1"
+    },
+    {
+      "delta_g_uniform_minus_gradient_m_s2": "0E-64",
+      "g_gradient_m_s2": "0.0000209679318478543570114712207330223860999971677222492687809331",
+      "g_uniform_m_s2": "0.0000209679318478543570114712207330223860999971677222492687809331",
+      "radius_m": "200",
+      "radius_over_R": "2"
+    }
+  ]
+}

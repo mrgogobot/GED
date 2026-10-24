@@ -1,0 +1,17 @@
+{
+  "experiment_id": "GED-V1-R4",
+  "r2_dependency_sha256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "radius_m": "100",
+  "density_kg_m3": "3000",
+  "core_volume_fraction": "0.5",
+  "specific_heat_J_kg_K": "1000",
+  "temperature_reference_K": "250",
+  "temperature_offset_K": "50",
+  "probe_interior_fraction_R": "0.5",
+  "probe_exterior_multiple_R": "2",
+  "degenerate_site_count": 256,
+  "macrostate_A_label_one_count": 0,
+  "macrostate_B_label_one_count": 128
+}

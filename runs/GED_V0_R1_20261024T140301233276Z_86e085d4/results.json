@@ -1,0 +1,68 @@
+{
+  "equal_radius_comparison": {
+    "ice": {
+      "mass_kg": 3841120617.78912,
+      "radius_m": 100.0,
+      "surface_gravity_m_s2": 2.5636791339309923e-05
+    },
+    "iron": {
+      "mass_kg": 32965778911.66889,
+      "radius_m": 100.0,
+      "surface_gravity_m_s2": 0.00022002349819015167
+    }
+  },
+  "experiment_id": "GED-V0-R1",
+  "fragmentation_ice": {
+    "count": 1000,
+    "fragment_surface_g_m_s2": 2.5636791339309923e-06,
+    "mass_conserved": true,
+    "mass_per_fragment_kg": 3841120.6177891204,
+    "original_ice_mass_kg": 3841120617.78912,
+    "probes": {
+      "far": {
+        "fractional_difference_magnitude": 1.7078276996367468e-08,
+        "fragmented_acceleration_x_m_s2": -2.56367909014777e-09,
+        "original_acceleration_x_m_s2": -2.5636791339309923e-09,
+        "probe_x_m": 10000.0
+      },
+      "near": {
+        "fractional_difference_magnitude": 0.17991350212408433,
+        "fragmented_acceleration_x_m_s2": -9.344171744991235e-06,
+        "original_acceleration_x_m_s2": -1.1394129484137743e-05,
+        "probe_x_m": 150.0
+      }
+    },
+    "radius_per_fragment_m": 10.0,
+    "sum_fragment_mass_kg": 3841120617.78912
+  },
+  "layered_same_mass_radius": {
+    "exterior_probe_radius_m": 200.0,
+    "external_fields_equal_by_spherical_symmetry": true,
+    "ice_core_iron_shell": {
+      "core_material": "ice",
+      "core_radius_m": 79.37005259840998,
+      "exterior_g_m_s2": 3.070753619118269e-05,
+      "interior_g_m_s2": 1.2818395669654962e-05,
+      "shell_material": "iron"
+    },
+    "interior_probe_radius_m": 50.0,
+    "iron_core_ice_shell": {
+      "core_material": "iron",
+      "core_radius_m": 79.37005259840998,
+      "exterior_g_m_s2": 3.0707536191182704e-05,
+      "interior_g_m_s2": 0.00011001174909507583,
+      "shell_material": "ice"
+    },
+    "outer_radius_m": 100.0,
+    "total_mass_each_kg": 18403449764.729008
+  },
+  "model": "Newtonian gravity; uniform-density spheres; prescribed fragmentation; idealized thermal model",
+  "scientific_status": "SCOUT_BASELINE_NOT_EVIDENCE_FOR_INFORMATION_FIELD",
+  "thermal_response": {
+    "deposited_energy_J_kg-1": 300000.0,
+    "equivalent_added_mass_per_kg_kg": 3.3379501681608554e-12,
+    "initial_temperature_K": 250.0,
+    "melt_fraction_ice": 0.7549099099099101,
+    "melt_fraction_iron": 0.0
+  }
+}

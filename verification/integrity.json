@@ -1,0 +1,392 @@
+{
+  "python": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+  "runs": [
+    {
+      "run": "GED_V0_R1_20261024T140301233276Z_86e085d4",
+      "manifest_checks": [],
+      "provenance_checks": [],
+      "top_level_matches_snapshot": {}
+    },
+    {
+      "run": "GED_V1_R1_20261024T142603147532Z_e1deca20",
+      "manifest_checks": [
+        {
+          "file": "exterior_samples.csv",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R1_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R1_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R1_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r1.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r1.py",
+          "matches": true
+        },
+        {
+          "file": "provenance.json",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "provenance_checks": [
+        {
+          "file": "exterior_samples.csv",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "top_level_matches_snapshot": {
+        "test_ged_v1_r1.py": true,
+        "GED_V1_R1_README.md": true,
+        "GED_V1_R1_DEV_AUDIT.md": true,
+        "ged_v1_r1.py": true,
+        "GED_V1_R1_config.json": true
+      },
+      "fresh_snapshot_test_returncode": 0
+    },
+    {
+      "run": "GED_V1_R2_20261024T144959429370Z_438f61cc",
+      "manifest_checks": [
+        {
+          "file": "energy_field_samples.csv",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R2_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R2_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R2_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "provenance.json",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "provenance_checks": [
+        {
+          "file": "input_snapshot/GED_V1_R2_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R2_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R2_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "energy_field_samples.csv",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "top_level_matches_snapshot": {
+        "ged_v1_r2.py": true,
+        "GED_V1_R2_README.md": true,
+        "GED_V1_R2_DEV_AUDIT.md": true,
+        "GED_V1_R2_config.json": true,
+        "test_ged_v1_r2.py": true
+      },
+      "fresh_snapshot_test_returncode": 0
+    },
+    {
+      "run": "GED_V1_R3_20261024T151223934529Z_5c623184",
+      "manifest_checks": [
+        {
+          "file": "entropy_energy_ledger.csv",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_PRECISION_FAILURE_A.log",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r3.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r3.py",
+          "matches": true
+        },
+        {
+          "file": "provenance.json",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "provenance_checks": [
+        {
+          "file": "input_snapshot/GED_V1_R3_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_PRECISION_FAILURE_A.log",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R3_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r3.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r3.py",
+          "matches": true
+        },
+        {
+          "file": "entropy_energy_ledger.csv",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "top_level_matches_snapshot": {
+        "ged_v1_r3.py": true,
+        "GED_V1_R3_README.md": true,
+        "GED_V1_R3_config.json": true,
+        "ged_v1_r2.py": true,
+        "GED_V1_R3_DEV_AUDIT.md": true,
+        "GED_V1_R3_PRECISION_FAILURE_A.log": true,
+        "test_ged_v1_r3.py": true
+      },
+      "fresh_snapshot_test_returncode": 0
+    },
+    {
+      "run": "GED_V1_R4_20261024T161345515940Z_1dc44f65",
+      "manifest_checks": [
+        {
+          "file": "input_snapshot/GED_V1_R4_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_PRECISION_FAILURE_A.log",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r4.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r4.py",
+          "matches": true
+        },
+        {
+          "file": "provenance.json",
+          "matches": true
+        },
+        {
+          "file": "radial_gravity.csv",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "provenance_checks": [
+        {
+          "file": "input_snapshot/GED_V1_R4_DEV_AUDIT.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_PRECISION_FAILURE_A.log",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_README.md",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/GED_V1_R4_config.json",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r2.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/ged_v1_r4.py",
+          "matches": true
+        },
+        {
+          "file": "input_snapshot/test_ged_v1_r4.py",
+          "matches": true
+        },
+        {
+          "file": "radial_gravity.csv",
+          "matches": true
+        },
+        {
+          "file": "report.txt",
+          "matches": true
+        },
+        {
+          "file": "results.json",
+          "matches": true
+        },
+        {
+          "file": "tests.txt",
+          "matches": true
+        }
+      ],
+      "top_level_matches_snapshot": {
+        "ged_v1_r2.py": true,
+        "test_ged_v1_r4.py": true,
+        "GED_V1_R4_DEV_AUDIT.md": true,
+        "GED_V1_R4_README.md": true,
+        "GED_V1_R4_config.json": true,
+        "GED_V1_R4_PRECISION_FAILURE_A.log": true,
+        "ged_v1_r4.py": true
+      },
+      "fresh_snapshot_test_returncode": 0
+    }
+  ],
+  "r4_zip_matches_conversation": true
+}

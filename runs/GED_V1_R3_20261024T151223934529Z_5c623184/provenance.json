@@ -1,0 +1,58 @@
+{
+  "dependencies": "Python standard library and pinned GED-V1-R2 source",
+  "dependency_r2_sha256_expected": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "dependency_r2_sha256_observed": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "experiment_id": "GED-V1-R3",
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "exact_tag": null,
+    "root": null
+  },
+  "input_SHA256": {
+    "GED_V1_R3_DEV_AUDIT.md": "2b24dc3585c38b8555789cbc0c2376f2c4b7b63fdd0c934cfecb8b8e69ddbdb5",
+    "GED_V1_R3_PRECISION_FAILURE_A.log": "1b387262e790cf43c63e4a82dfb1a25e52556b44b8d9389a3d5ddfec93002011",
+    "GED_V1_R3_README.md": "a37d2365a498b0d201b35bd3b705ebdc8694c5189e828a15b5446594f8e9d824",
+    "GED_V1_R3_config.json": "a75e3d365a7dfc50123076b9567362c3fd9c18903d6141cee7a54a60a2f47220",
+    "ged_v1_r2.py": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+    "ged_v1_r3.py": "584b75a13063cbd2e86df15d607f74578a7630a0edd2ff4c09b97cf214d4aa1c",
+    "test_ged_v1_r3.py": "d19e0281c03cc3770f2aab71a33e31cc0c482b127004a453031932e28405d396"
+  },
+  "invocation": [
+    "ged_v1_r3.py"
+  ],
+  "limitations": [
+    "A stable, bound system needs no continuous entropy/energy exhaust in this model.",
+    "The B->A layer swap is imposed, not dynamically simulated or demonstrated to occur spontaneously.",
+    "Potential energy is only Newtonian self-gravity; chemical and nuclear binding are not computed.",
+    "No mechanical work, fracture, pressure, elastic strain, latent heat or thermal radiation dynamics.",
+    "Heat capacities are constant illustrative values; no temperature-dependent material properties.",
+    "The external bath is at constant temperature and fully thermalises exported energy.",
+    "Reported entropy is an idealised THERMAL entropy ledger only; reconfiguration/mixing entropy is omitted.",
+    "A direct escaping photon entropy must not be identified with Q/T_bath before thermalisation.",
+    "Far-field mass/acceleration are weak-field energy bookkeeping, not a complete Einstein solution.",
+    "No new gravity coupling, no information field signal, no observations, no measurement sensitivity claim."
+  ],
+  "machine": "arm64",
+  "output_SHA256": {
+    "entropy_energy_ledger.csv": "6c8d62b8adca9306c07d68f704e30bea32896cd0a98b13187f3a9d3c508f661c",
+    "report.txt": "85b401271e952f76b1677ef6dba373637ca51d6c4f0df888c89ac4f2aa06437e",
+    "results.json": "6b5299020c032f36ad282c63ef1ce538026458481d78d1c6db729928c184956f",
+    "tests.txt": "a9bab21b1d1da8de177bf884f03e494bd1bca3a507d5e492aa00e3a383dd91b9"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "run_id": "GED_V1_R3_20261024T151223934529Z_5c623184",
+  "status": "NUMERICAL_BASELINE_TESTED_NEW_HYPOTHESIS_NOT_TESTED",
+  "test_command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_ged_v1_r3.py"
+  ],
+  "test_returncode": 0,
+  "utc_start": "2026-10-24T15:12:23.934529+00:00"
+}

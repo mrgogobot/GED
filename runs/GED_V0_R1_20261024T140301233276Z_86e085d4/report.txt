@@ -1,0 +1,29 @@
+GED-V0-R1 — CONVENTIONAL PHYSICS BASELINE (NOT A HYPOTHESIS CONFIRMATION)
+======================================================================
+Equal radius: 100.0 m
+Iron mass: 3.296577891e+10 kg
+Ice mass:  3841120618 kg
+Iron surface gravity: 0.0002200234982 m/s^2
+Ice surface gravity:  2.563679134e-05 m/s^2
+
+LAYERED SPHERES: identical outer radius and total mass
+Each total mass: 1.840344976e+10 kg
+External fields equal: True
+Interior g (iron core): 0.0001100117491 m/s^2
+Interior g (ice core):  1.281839567e-05 m/s^2
+
+IDEALIZED HEATING (not vacuum asteroid physics)
+Iron fraction melted: 0.000000%
+Ice fraction melted:  75.490991%
+
+FRAGMENTATION: 1000 separated ice fragments
+Mass conserved: True
+Fragment radius: 10 m
+Individual fragment surface g: 2.563679134e-06 m/s^2
+Near x=150.0 m relative field change: 0.179913502
+Far x=10000.0 m relative field change:  1.7078277e-08
+
+SCIENTIFIC INTERPRETATION:
+Physical materials differ. Gravitational fields respond to total mass
+and its distribution. This experiment does not detect an additional
+gravitational information channel or a material-instruction mechanism.

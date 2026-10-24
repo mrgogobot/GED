@@ -1,0 +1,12 @@
+{
+  "candidate_version": "ged-v1-r4",
+  "repository_url": "https://github.com/mrgogobot/GED",
+  "repository_visibility_intended_before_approval": "private",
+  "public_release_approved": false,
+  "release_url": null,
+  "release_commit": null,
+  "zenodo_record_url": null,
+  "doi": null,
+  "license": "pending author choice",
+  "historical_provenance": "Original run provenance remains unchanged; historical Git fields are null."
+}

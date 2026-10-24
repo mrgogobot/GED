@@ -1,0 +1,15 @@
+{
+  "experiment_id": "GED-V1-R1",
+  "G_m3_kg_s2": 6.67430e-11,
+  "radius_m": 100.0,
+  "core_volume_fraction": 0.5,
+  "interior_probe_R": 0.5,
+  "exterior_probes_R": [1.0, 1.5, 2.0, 5.0, 10.0],
+  "temperature_K": 250.0,
+  "heat_input_J_kg": 300000.0,
+  "materials": {
+    "iron": {"density_kg_m3": 7870.0, "melt_K": 1811.0, "heat_capacity_J_kg_K": 450.0, "latent_fusion_J_kg": 247000.0},
+    "ice":  {"density_kg_m3": 917.0, "melt_K": 273.15, "heat_capacity_J_kg_K": 2100.0, "latent_fusion_J_kg": 333000.0}
+  },
+  "toy": {"alpha": 1e-6, "radial_power": 2, "probe_R": 2.0, "difference_uncertainty_ppm": 1.0}
+}

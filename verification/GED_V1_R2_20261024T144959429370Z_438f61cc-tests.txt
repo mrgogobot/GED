@@ -1,0 +1,31 @@
+test_absorb_vs_emit (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_c_zero_rejected (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_closed_mass_unchanged (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_core_fraction (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_delta_g_formula (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_delta_g_inverse_square (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_delta_g_zero (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_energy_release_conservation (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_equal_inventory (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_fixed_radius_difference_small (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_independent_quadrature_ice (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_independent_quadrature_iron (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_inside_probe_rejected (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_iron_core_more_bound (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_mass_equivalence_identity (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_mass_equivalence_negative (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_mass_parts_sum (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_negative_binding_potential (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_negative_heat_rejected (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_negative_radius_rejected (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_newton_baseline (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_no_new_gravity_claim (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_open_mass_loss (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_sphere_volume_independent (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_tiny_mass_change_not_lost (test_ged_v1_r2.GEDV1R2Tests) ... ok
+test_uniform_sphere_limit (test_ged_v1_r2.GEDV1R2Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.016s
+
+OK

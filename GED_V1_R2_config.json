@@ -1,0 +1,13 @@
+{
+  "experiment_id": "GED-V1-R2",
+  "source_v1_r1_run": "GED_V1_R1_20261024T142603147532Z_e1deca20",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "radius_m": "100",
+  "core_volume_fraction": "0.5",
+  "density_iron_kg_m3": "7870",
+  "density_ice_kg_m3": "917",
+  "thermal_input_J_kg": "300000",
+  "exterior_probes_R": ["1", "2", "5", "10"],
+  "report_probe_R": "2"
+}
