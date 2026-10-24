@@ -2,16 +2,23 @@
   "candidate_version": "ged-v1-r4",
   "repository_url": "https://github.com/mrgogobot/GED",
   "repository_visibility_intended_before_approval": "private",
-  "public_release_approved": false,
-  "release_url": null,
-  "release_commit": null,
-  "zenodo_record_url": null,
-  "doi": null,
+  "public_release_approved": true,
+  "release_url": "https://github.com/mrgogobot/GED/releases/tag/ged-v1-r4",
+  "release_commit": "6fb5b5e91a072451809e3acab61e3ed643790b33",
+  "zenodo_record_url": "https://zenodo.org/records/23622641",
+  "doi": "10.5281/zenodo.23622641",
   "license": {
     "code": "MIT",
     "research_materials": "CC-BY-NC-4.0",
     "scope": "LICENSE.md"
   },
   "historical_provenance": "Original run provenance remains unchanged; historical Git fields are null.",
-  "creator": "Malin Hess"
+  "creator": "Malin Hess",
+  "repository_visibility": "public",
+  "public_release_approval_date": "2026-10-24",
+  "concept_doi": "10.5281/zenodo.23622640",
+  "archive_filename": "GED-release-candidate.zip",
+  "archive_sha256": "122c03b83f50bc4d0241b28ced97432079d3990441989a159f18e9ca9a2be4a1",
+  "archive_md5": "11b1f500204c647f3053b77432499c95",
+  "publication_note": "This tracking file was updated after publication. The published tag and deposited archive retain the reviewed candidate metadata and remain unchanged."
 }
