@@ -1,0 +1,172 @@
+{
+  "case_inventory_ledgers": {
+    "inventory_A": [
+      {
+        "binding_energy_j": "-200000000",
+        "binding_mass_equivalent_kg": "-2.22530011210723686434817992969601998321506486894992474893247E-9",
+        "constituent_rest_equivalent_kg": "2000000000.00000000222530011210723686434817992969601998321506",
+        "recovered_total_mass_equivalent_kg": "2000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 0,
+        "total_mass_equivalent_kg": "2000000000"
+      },
+      {
+        "binding_energy_j": "-300000000",
+        "binding_mass_equivalent_kg": "-3.33795016816085529652226989454402997482259730342488712339870E-9",
+        "constituent_rest_equivalent_kg": "3000000000.00000000333795016816085529652226989454402997482260",
+        "recovered_total_mass_equivalent_kg": "3000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 1,
+        "total_mass_equivalent_kg": "3000000000"
+      },
+      {
+        "binding_energy_j": "-400000000",
+        "binding_mass_equivalent_kg": "-4.45060022421447372869635985939203996643012973789984949786494E-9",
+        "constituent_rest_equivalent_kg": "5000000000.00000000445060022421447372869635985939203996643013",
+        "recovered_total_mass_equivalent_kg": "5000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 2,
+        "total_mass_equivalent_kg": "5000000000"
+      }
+    ],
+    "inventory_B": [
+      {
+        "binding_energy_j": "-200000000",
+        "binding_mass_equivalent_kg": "-2.22530011210723686434817992969601998321506486894992474893247E-9",
+        "constituent_rest_equivalent_kg": "3000000000.00000000222530011210723686434817992969601998321506",
+        "recovered_total_mass_equivalent_kg": "3000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 0,
+        "total_mass_equivalent_kg": "3000000000"
+      },
+      {
+        "binding_energy_j": "-300000000",
+        "binding_mass_equivalent_kg": "-3.33795016816085529652226989454402997482259730342488712339870E-9",
+        "constituent_rest_equivalent_kg": "2000000000.00000000333795016816085529652226989454402997482260",
+        "recovered_total_mass_equivalent_kg": "2000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 1,
+        "total_mass_equivalent_kg": "2000000000"
+      },
+      {
+        "binding_energy_j": "-400000000",
+        "binding_mass_equivalent_kg": "-4.45060022421447372869635985939203996643012973789984949786494E-9",
+        "constituent_rest_equivalent_kg": "5000000000.00000000445060022421447372869635985939203996643013",
+        "recovered_total_mass_equivalent_kg": "5000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 2,
+        "total_mass_equivalent_kg": "5000000000"
+      }
+    ],
+    "inventory_C": [
+      {
+        "binding_energy_j": "-500000000",
+        "binding_mass_equivalent_kg": "-5.56325028026809216087044982424004995803766217237481187233117E-9",
+        "constituent_rest_equivalent_kg": "2000000000.00000000556325028026809216087044982424004995803766",
+        "recovered_total_mass_equivalent_kg": "2000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 0,
+        "total_mass_equivalent_kg": "2000000000"
+      },
+      {
+        "binding_energy_j": "-100000000",
+        "binding_mass_equivalent_kg": "-1.11265005605361843217408996484800999160753243447496237446623E-9",
+        "constituent_rest_equivalent_kg": "3000000000.00000000111265005605361843217408996484800999160753",
+        "recovered_total_mass_equivalent_kg": "3000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 1,
+        "total_mass_equivalent_kg": "3000000000"
+      },
+      {
+        "binding_energy_j": "-300000000",
+        "binding_mass_equivalent_kg": "-3.33795016816085529652226989454402997482259730342488712339870E-9",
+        "constituent_rest_equivalent_kg": "5000000000.00000000333795016816085529652226989454402997482260",
+        "recovered_total_mass_equivalent_kg": "5000000000.00000000000000000000000000000000000000000000000000",
+        "shell": 2,
+        "total_mass_equivalent_kg": "5000000000"
+      }
+    ]
+  },
+  "different_binding_ledger_A_C": true,
+  "different_internal_field_A_B": true,
+  "experiment_id": "GED-V1-R10",
+  "exterior_nullity": 2,
+  "exterior_rank": 1,
+  "external_difference_exactly_zero": true,
+  "hypothesis_assessment": {
+    "established": "Radial mass-energy contributions obey the Newtonian shell theorem; selected internal probes can recover assumed shell totals.",
+    "falsifiable_next_step": "Specify and derive a source-dependent extra observable, independently constrained by physical theory and measurement, without double-counting stress-energy.",
+    "new_gravity_evidence": false,
+    "unresolved": "Neither atomic identities, binding rules, nor a new material-response channel are gravitationally recovered by this toy model."
+  },
+  "interior_nullity": 0,
+  "interior_rank": 3,
+  "interior_recovered_shell_mass_kg": [
+    "2000000000",
+    "3000000000",
+    "5000000000"
+  ],
+  "model": "Spherical Newtonian static uniform-density shells; synthetic CCMEI bookkeeping",
+  "probe_results": [
+    {
+      "delta_A_minus_B_m_s2": "-0.0000834287500000000",
+      "delta_A_minus_C_m_s2": "0E-19",
+      "g_inventory_A_m_s2": "0.0001668575000000000",
+      "g_inventory_B_m_s2": "0.0002502862500000000",
+      "g_inventory_C_m_s2": "0.0001668575000000000",
+      "radius_m": "10"
+    },
+    {
+      "delta_A_minus_B_m_s2": "-0.000038243634222919937205651491365777080062794348508634222919937",
+      "delta_A_minus_C_m_s2": "0E-63",
+      "g_inventory_A_m_s2": "0.000157689505494505494505494505494505494505494505494505494505495",
+      "g_inventory_B_m_s2": "0.000195933139717425431711145996860282574568288854003139717425432",
+      "g_inventory_C_m_s2": "0.000157689505494505494505494505494505494505494505494505494505495",
+      "radius_m": "35"
+    },
+    {
+      "delta_A_minus_B_m_s2": "0E-64",
+      "delta_A_minus_C_m_s2": "0E-64",
+      "g_inventory_A_m_s2": "0.0000794559523809523809523809523809523809523809523809523809523810",
+      "g_inventory_B_m_s2": "0.0000794559523809523809523809523809523809523809523809523809523810",
+      "g_inventory_C_m_s2": "0.0000794559523809523809523809523809523809523809523809523809523810",
+      "radius_m": "75"
+    },
+    {
+      "delta_A_minus_B_m_s2": "0E-16",
+      "delta_A_minus_C_m_s2": "0E-16",
+      "g_inventory_A_m_s2": "0.0000667430000000",
+      "g_inventory_B_m_s2": "0.0000667430000000",
+      "g_inventory_C_m_s2": "0.0000667430000000",
+      "radius_m": "100"
+    },
+    {
+      "delta_A_minus_B_m_s2": "0E-64",
+      "delta_A_minus_C_m_s2": "0E-64",
+      "g_inventory_A_m_s2": "0.0000296635555555555555555555555555555555555555555555555555555556",
+      "g_inventory_B_m_s2": "0.0000296635555555555555555555555555555555555555555555555555555556",
+      "g_inventory_C_m_s2": "0.0000296635555555555555555555555555555555555555555555555555555556",
+      "radius_m": "150"
+    },
+    {
+      "delta_A_minus_B_m_s2": "0E-65",
+      "delta_A_minus_C_m_s2": "0E-65",
+      "g_inventory_A_m_s2": "0.00000741588888888888888888888888888888888888888888888888888888889",
+      "g_inventory_B_m_s2": "0.00000741588888888888888888888888888888888888888888888888888888889",
+      "g_inventory_C_m_s2": "0.00000741588888888888888888888888888888888888888888888888888888889",
+      "radius_m": "300"
+    }
+  ],
+  "reconstruction_exact": true,
+  "same_field_A_C_at_all_probes": true,
+  "same_radial_mass_A_C": true,
+  "same_total_mass_A_B": true,
+  "scientific_scope": {
+    "atomic_binding_measured": false,
+    "equilibrium_or_thermal_pressure_modeled": false,
+    "general_relativity_solved": false,
+    "new_gravity_detected": false,
+    "numerical_only": true,
+    "real_material_microphysics_modeled": false,
+    "source_geometry_assumed": true
+  },
+  "shell_geometry_m": [
+    "0",
+    "20",
+    "50",
+    "100"
+  ],
+  "total_mass_equivalent_kg": "10000000000"
+}

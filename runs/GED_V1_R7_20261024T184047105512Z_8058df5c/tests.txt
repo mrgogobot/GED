@@ -1,0 +1,73 @@
+COMMAND: /Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python -m unittest -v test_ged_v1_r7.py
+RETURN CODE: 0
+
+STDOUT:
+
+STDERR:
+test_all_quadrupoles_traceless (test_ged_v1_r7.GEDR7Tests.test_all_quadrupoles_traceless) ... ok
+test_all_sample_points_external (test_ged_v1_r7.GEDR7Tests.test_all_sample_points_external) ... ok
+test_approximation_improves_with_distance (test_ged_v1_r7.GEDR7Tests.test_approximation_improves_with_distance) ... ok
+test_axis_quadrupole_inverse_fourth (test_ged_v1_r7.GEDR7Tests.test_axis_quadrupole_inverse_fourth) ... ok
+test_background_is_same_for_all_cases (test_ged_v1_r7.GEDR7Tests.test_background_is_same_for_all_cases) ... ok
+test_background_mass_analytic (test_ged_v1_r7.GEDR7Tests.test_background_mass_analytic) ... ok
+test_comparisons_have_expected_parcel_counts (test_ged_v1_r7.GEDR7Tests.test_comparisons_have_expected_parcel_counts) ... ok
+test_computation_has_expected_rows (test_ged_v1_r7.GEDR7Tests.test_computation_has_expected_rows) ... ok
+test_correct_energy_shares (test_ged_v1_r7.GEDR7Tests.test_correct_energy_shares) ... ok
+test_cube_axial_direct_two_group_formula (test_ged_v1_r7.GEDR7Tests.test_cube_axial_direct_two_group_formula) ... ok
+test_cube_axis_rotation_symmetric (test_ged_v1_r7.GEDR7Tests.test_cube_axis_rotation_symmetric) ... ok
+test_cube_higher_moment_shrinks_relative_to_monopole (test_ged_v1_r7.GEDR7Tests.test_cube_higher_moment_shrinks_relative_to_monopole) ... ok
+test_cube_is_not_spherical_field (test_ged_v1_r7.GEDR7Tests.test_cube_is_not_spherical_field) ... ok
+test_cube_quadrupole_zero (test_ged_v1_r7.GEDR7Tests.test_cube_quadrupole_zero) ... ok
+test_difference_exact_and_quadrupole_same_sign (test_ged_v1_r7.GEDR7Tests.test_difference_exact_and_quadrupole_same_sign) ... ok
+test_equal_total_energy_exact (test_ged_v1_r7.GEDR7Tests.test_equal_total_energy_exact) ... ok
+test_experiment_identifier (test_ged_v1_r7.GEDR7Tests.test_experiment_identifier) ... ok
+test_identical_monopole_at_same_probe (test_ged_v1_r7.GEDR7Tests.test_identical_monopole_at_same_probe) ... ok
+test_manifest_files_exist (test_ged_v1_r7.GEDR7Tests.test_manifest_files_exist) ... ok
+test_mass_energy_equivalent (test_ged_v1_r7.GEDR7Tests.test_mass_energy_equivalent) ... ok
+test_match_monopole_even_though_exact_differs (test_ged_v1_r7.GEDR7Tests.test_match_monopole_even_though_exact_differs) ... ok
+test_model_geometry (test_ged_v1_r7.GEDR7Tests.test_model_geometry) ... ok
+test_monopole_inverse_square (test_ged_v1_r7.GEDR7Tests.test_monopole_inverse_square) ... ok
+test_outside_gravity_decreases_with_distance (test_ged_v1_r7.GEDR7Tests.test_outside_gravity_decreases_with_distance) ... ok
+test_pair_rotation_swaps_axes (test_ged_v1_r7.GEDR7Tests.test_pair_rotation_swaps_axes) ... ok
+test_pair_x_Qxx_analytic (test_ged_v1_r7.GEDR7Tests.test_pair_x_Qxx_analytic) ... ok
+test_pair_x_Qyy_analytic (test_ged_v1_r7.GEDR7Tests.test_pair_x_Qyy_analytic) ... ok
+test_pair_x_axial_direct_inverse_square (test_ged_v1_r7.GEDR7Tests.test_pair_x_axial_direct_inverse_square) ... ok
+test_pair_x_axial_quadrupole_analytic (test_ged_v1_r7.GEDR7Tests.test_pair_x_axial_quadrupole_analytic) ... ok
+test_pair_x_stronger_along_axis_than_monopole (test_ged_v1_r7.GEDR7Tests.test_pair_x_stronger_along_axis_than_monopole) ... ok
+test_pair_x_transverse_direct_formula (test_ged_v1_r7.GEDR7Tests.test_pair_x_transverse_direct_formula) ... ok
+test_pair_x_transverse_quadrupole_analytic (test_ged_v1_r7.GEDR7Tests.test_pair_x_transverse_quadrupole_analytic) ... ok
+test_pair_x_weaker_transverse_than_monopole (test_ged_v1_r7.GEDR7Tests.test_pair_x_weaker_transverse_than_monopole) ... ok
+test_pair_y_orientation_changes_external_field (test_ged_v1_r7.GEDR7Tests.test_pair_y_orientation_changes_external_field) ... ok
+test_pair_y_rotates_Q (test_ged_v1_r7.GEDR7Tests.test_pair_y_rotates_Q) ... ok
+test_parcels_inside_shell (test_ged_v1_r7.GEDR7Tests.test_parcels_inside_shell) ... ok
+test_positive_constants (test_ged_v1_r7.GEDR7Tests.test_positive_constants) ... ok
+test_quadrupole_approx_improves_monopole_axis (test_ged_v1_r7.GEDR7Tests.test_quadrupole_approx_improves_monopole_axis) ... ok
+test_quadrupole_prediction_cube_equals_monopole (test_ged_v1_r7.GEDR7Tests.test_quadrupole_prediction_cube_equals_monopole) ... ok
+test_quadrupoles_symmetric (test_ged_v1_r7.GEDR7Tests.test_quadrupoles_symmetric) ... ok
+test_radii_sorted (test_ged_v1_r7.GEDR7Tests.test_radii_sorted) ... ok
+test_reject_absent_limitations (test_ged_v1_r7.GEDR7Tests.test_reject_absent_limitations) ... ok
+test_reject_bad_core_radius (test_ged_v1_r7.GEDR7Tests.test_reject_bad_core_radius) ... ok
+test_reject_boolean_energy (test_ged_v1_r7.GEDR7Tests.test_reject_boolean_energy) ... ok
+test_reject_duplicate_axes (test_ged_v1_r7.GEDR7Tests.test_reject_duplicate_axes) ... ok
+test_reject_duplicate_radii (test_ged_v1_r7.GEDR7Tests.test_reject_duplicate_radii) ... ok
+test_reject_infinite_G (test_ged_v1_r7.GEDR7Tests.test_reject_infinite_G) ... ok
+test_reject_inside_probe_config (test_ged_v1_r7.GEDR7Tests.test_reject_inside_probe_config) ... ok
+test_reject_inside_probe_exact (test_ged_v1_r7.GEDR7Tests.test_reject_inside_probe_exact) ... ok
+test_reject_inside_probe_multipole (test_ged_v1_r7.GEDR7Tests.test_reject_inside_probe_multipole) ... ok
+test_reject_negative_energy (test_ged_v1_r7.GEDR7Tests.test_reject_negative_energy) ... ok
+test_reject_source_outside (test_ged_v1_r7.GEDR7Tests.test_reject_source_outside) ... ok
+test_reject_unknown_case (test_ged_v1_r7.GEDR7Tests.test_reject_unknown_case) ... ok
+test_reject_unsorted_radii (test_ged_v1_r7.GEDR7Tests.test_reject_unsorted_radii) ... ok
+test_reject_wrong_case_set (test_ged_v1_r7.GEDR7Tests.test_reject_wrong_case_set) ... ok
+test_reject_wrong_identifier (test_ged_v1_r7.GEDR7Tests.test_reject_wrong_identifier) ... ok
+test_reject_zero_c (test_ged_v1_r7.GEDR7Tests.test_reject_zero_c) ... ok
+test_result_does_not_claim_novel_gravity (test_ged_v1_r7.GEDR7Tests.test_result_does_not_claim_novel_gravity) ... ok
+test_result_limits_not_empty (test_ged_v1_r7.GEDR7Tests.test_result_limits_not_empty) ... ok
+test_result_values_not_float_coerced (test_ged_v1_r7.GEDR7Tests.test_result_values_not_float_coerced) ... ok
+test_sha256_input_file (test_ged_v1_r7.GEDR7Tests.test_sha256_input_file) ... ok
+test_zero_dipoles (test_ged_v1_r7.GEDR7Tests.test_zero_dipoles) ... ok
+
+----------------------------------------------------------------------
+Ran 62 tests in 0.013s
+
+OK

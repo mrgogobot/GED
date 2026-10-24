@@ -1,0 +1,31 @@
+{
+  "experiment_id": "GED-V1-R7",
+  "title": "Asymmetric Energy Distribution and Gravitational Multipoles",
+  "physics_scope": "Conventional Newtonian exterior point-source mass-energy proxy; not a complete GR solution",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "outer_radius_m": "100",
+  "core_radius_m": "50",
+  "iron_core_density_kg_m3": "7870",
+  "ice_shell_density_kg_m3": "917",
+  "total_added_energy_J": "100000000",
+  "parcel_offset_m": "60",
+  "sample_radii_m": ["200", "400", "800", "1600", "3200"],
+  "sample_axes": ["x", "y", "z"],
+  "comparison": ["pair_x", "pair_y", "cube_eight"],
+  "hypotheses": {
+    "conventional_null": "Equal total energy and centre-of-energy give equal monopole and dipole but need not give equal higher multipoles or external fields.",
+    "information_channel": "No extra channel is posited or fitted in this scout."
+  },
+  "limitations": [
+    "Parcels idealize spatially localized additional energy as Newtonian point sources; not real zero-size material inclusions.",
+    "The spherical iron-core/ice-shell background is held fixed, so its common exterior Newtonian field cancels in field differences.",
+    "No mechanical equilibrium, supporting apparatus, binding stress, pressure contribution, GR stress-energy tensor, or Einstein equations are solved.",
+    "Energy rearrangement pathways and energy transport are not modeled; only matched endpoint configurations are compared.",
+    "The one-hundred-million-joule redistributed energy is illustrative, not a measured asteroid perturbation.",
+    "The computed quadrupole tensor is source-defined, traceless, and Cartesian; it does not capture all higher multipoles.",
+    "A vanishing quadrupole does not imply a spherically symmetric full source; cubic source parcels have higher multipoles.",
+    "The absolute gravitational corrections are extraordinarily small; no instrumental feasibility or observation is claimed.",
+    "No new information-field coupling, novel gravitational law, or gravitational information instructions are inferred."
+  ]
+}

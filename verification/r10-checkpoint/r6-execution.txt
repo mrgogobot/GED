@@ -1,0 +1,32 @@
+GED-V1-R6 — RADIAL STRESS-ENERGY DISTRIBUTION SCOUT
+=====================================================================
+CONVENTIONAL WEAK-FIELD NEWTONIAN MASS-ENERGY PROXY ONLY
+NOT A SOLUTION OF THE FULL STRESS-ENERGY TENSOR / EINSTEIN EQUATIONS
+Core rest mass: 4.120722363959E+9 kg
+Shell rest mass: 3.360980540565E+9 kg
+Total retained elastic energy per configuration: 1.000000000000E+8 J
+
+core_weighted:
+  core: U=7.500000000000E+7 J; energy density=1.432394487827E+2 J/m^3; strain=3.709419543660E-5
+  shell: U=2.500000000000E+7 J; energy density=6.820926132510E+0 J/m^3; strain=3.857020997613E-5
+
+shell_weighted:
+  core: U=2.500000000000E+7 J; energy density=4.774648292757E+1 J/m^3; strain=2.141634372069E-5
+  shell: U=7.500000000000E+7 J; energy density=2.046277839753E+1 J/m^3; strain=6.680556333726E-5
+
+RADIUS / DIFFERENCE IN MASS-ENERGY GRAVITY PROXY:
+  r=0 m: delta_g(core-weighted - shell-weighted)=0.000000000000E+12 m/s^2
+  r=25 m: delta_g(core-weighted - shell-weighted)=7.426160269119E-24 m/s^2
+  r=50 m: delta_g(core-weighted - shell-weighted)=1.485232053824E-23 m/s^2
+  r=75 m: delta_g(core-weighted - shell-weighted)=4.361395713609E-24 m/s^2
+  r=100 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-81 m/s^2
+  r=200 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-81 m/s^2
+  r=1000 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-83 m/s^2
+
+Repartition ledger: core + shell = 0 J; no energy is created.
+Conventional prediction: DIFFERENT INTERNAL correction; IDENTICAL EXTERIOR correction.
+Model assumes spherical energy density without solving elastic equilibrium.
+No novel interaction field derived, observed or confirmed.
+Tests: PASS; scientific claim restricted to the specified numerical proxy.
+
+Results and receipts: /Users/turnipresearchlibrary/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an-2/work/rerun-r6/runs/GED_V1_R6_20261024T202517268162Z_e9ee1449

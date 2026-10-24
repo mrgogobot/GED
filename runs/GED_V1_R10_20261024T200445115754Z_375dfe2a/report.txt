@@ -1,0 +1,16 @@
+GED-V1-R10 — CCMEI / GRAVITATIONAL LAYER INFORMATION
+========================================================
+CONVENTIONAL NEWTONIAN MODEL; NO NOVEL GRAVITY OR ATOMIC INFORMATION CHANNEL DETECTED
+Each object's total gravitational source mass-equivalent: 10000000000 kg
+Three-shell exterior-only rank: 1/3; nullity 2
+Selected interior-probe rank: 3/3; nullity 0
+Interior recovered source masses: ['2000000000', '3000000000', '5000000000'] kg
+Exact noiseless recovery under assumed shell boundaries: True
+A vs B differ internally: True; exterior equal: True
+A vs C different synthetic binding ledger, same field at all probes: True
+NOTE: Cases A and C are bookkeeping-equivalent gravitational source models, not
+demonstrated realizable materials with identical complete GR stress-energy.
+LIMITS: static Newtonian spheres; no atomic microphysics, stress pressure, dynamics or full GR.
+Tests: PASS
+SCIENTIFIC VERDICT: No new gravitational information-channel mechanism established.
+Results and receipts: /Users/turnipresearchlibrary/Desktop/Cosmology/GED/runs/GED_V1_R10_20261024T200445115754Z_375dfe2a

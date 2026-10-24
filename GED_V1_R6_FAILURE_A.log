@@ -1,0 +1,143 @@
+GED-V1-R6 PRESERVED DEVELOPMENT FAILURES — before correction
+
+FIRST INITIAL RUN: test suite entered an unguarded recursive clean-room test invocation.
+Parent run was stopped by tool timeout. The following is its captured, incomplete terminal output.
+
+test_analytic_core_volume (test_ged_v1_r6.GEDR6Tests.test_analytic_core_volume) ... ok
+test_baseline_same_at_all_radii (test_ged_v1_r6.GEDR6Tests.test_baseline_same_at_all_radii) ... ok
+test_center_energy_enclosed_zero (test_ged_v1_r6.GEDR6Tests.test_center_energy_enclosed_zero) ... ok
+test_center_gravity_zero (test_ged_v1_r6.GEDR6Tests.test_center_gravity_zero) ... ok
+test_core_boundary_difference_is_nonzero (test_ged_v1_r6.GEDR6Tests.test_core_boundary_difference_is_nonzero) ... ok
+test_core_boundary_independent_formula (test_ged_v1_r6.GEDR6Tests.test_core_boundary_independent_formula) ... ok
+test_core_loading_has_larger_inner_correction (test_ged_v1_r6.GEDR6Tests.test_core_loading_has_larger_inner_correction) ... ok
+test_core_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_core_weighted_energy) ... ok
+test_dependency_checker (test_ged_v1_r6.GEDR6Tests.test_dependency_checker) ... ok
+test_each_case_has_same_material_inventory (test_ged_v1_r6.GEDR6Tests.test_each_case_has_same_material_inventory) ... FAIL
+test_elastic_density_in_pascal (test_ged_v1_r6.GEDR6Tests.test_elastic_density_in_pascal) ... ok
+test_enclosed_fraction_inner_bounds (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_inner_bounds) ... ok
+test_enclosed_fraction_shell_before_core (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_before_core) ... ok
+test_enclosed_fraction_shell_outer (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_outer) ... ok
+test_energy_repartition_conserves (test_ged_v1_r6.GEDR6Tests.test_energy_repartition_conserves) ... ok
+test_equal_total_allocated_energy (test_ged_v1_r6.GEDR6Tests.test_equal_total_allocated_energy) ... ok
+test_experiment_id (test_ged_v1_r6.GEDR6Tests.test_experiment_id) ... ok
+test_exterior_delta_fields_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_delta_fields_equal) ... ok
+test_exterior_full_total_field_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_full_total_field_equal) ... ok
+test_exterior_inverse_square (test_ged_v1_r6.GEDR6Tests.test_exterior_inverse_square) ... ok
+test_exterior_monopole_independent_formula (test_ged_v1_r6.GEDR6Tests.test_exterior_monopole_independent_formula) ... ok
+test_ice_strain_small (test_ged_v1_r6.GEDR6Tests.test_ice_strain_small) ... ok
+test_independent_total_rest_mass (test_ged_v1_r6.GEDR6Tests.test_independent_total_rest_mass) ... ok
+test_internal_field_difference_at_75m (test_ged_v1_r6.GEDR6Tests.test_internal_field_difference_at_75m) ... ok
+test_invalid_bad_fraction (test_ged_v1_r6.GEDR6Tests.test_invalid_bad_fraction) ... ok
+test_invalid_config_id (test_ged_v1_r6.GEDR6Tests.test_invalid_config_id) ... ok
+test_invalid_core_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_core_radius) ... ok
+test_invalid_duplicate_sample (test_ged_v1_r6.GEDR6Tests.test_invalid_duplicate_sample) ... ok
+test_invalid_equal_shell_bounds (test_ged_v1_r6.GEDR6Tests.test_invalid_equal_shell_bounds) ... ok
+test_invalid_missing_outer_boundary (test_ged_v1_r6.GEDR6Tests.test_invalid_missing_outer_boundary) ... ok
+test_invalid_negative_energy (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_energy) ... ok
+test_invalid_negative_modulus (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_modulus) ... ok
+test_invalid_negative_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_radius) ... ok
+test_invalid_nonfinite (test_ged_v1_r6.GEDR6Tests.test_invalid_nonfinite) ... ok
+test_invalid_reversed_fractions (test_ged_v1_r6.GEDR6Tests.test_invalid_reversed_fractions) ... ok
+test_invalid_wrong_R5_pin (test_ged_v1_r6.GEDR6Tests.test_invalid_wrong_R5_pin) ... ok
+test_iron_strain_small (test_ged_v1_r6.GEDR6Tests.test_iron_strain_small) ... ok
+test_mass_equivalence_fixed_at_exterior (test_ged_v1_r6.GEDR6Tests.test_mass_equivalence_fixed_at_exterior) ... ok
+test_no_claim_of_detection (test_ged_v1_r6.GEDR6Tests.test_no_claim_of_detection) ... ok
+test_pinned_dependency_failure_is_detected (test_ged_v1_r6.GEDR6Tests.test_pinned_dependency_failure_is_detected) ... ok
+test_pinned_r2_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r2_exact_sha256) ... ok
+test_pinned_r5_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r5_exact_sha256) ... ok
+test_sample_radii_sorted (test_ged_v1_r6.GEDR6Tests.test_sample_radii_sorted) ... ok
+test_scientific_limits_are_present (test_ged_v1_r6.GEDR6Tests.test_scientific_limits_are_present) ... ok
+test_serialization_preserves_small_values (test_ged_v1_r6.GEDR6Tests.test_serialization_preserves_small_values) ... ok
+test_shell_fraction_75m_analytic (test_ged_v1_r6.GEDR6Tests.test_shell_fraction_75m_analytic) ... FAIL
+test_shell_volume_seven_times_core (test_ged_v1_r6.GEDR6Tests.test_shell_volume_seven_times_core) ... FAIL
+test_shell_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_shell_weighted_energy) ... ok
+test_source_manifest_files_exist (test_ged_v1_r6.GEDR6Tests.test_source_manifest_files_exist) ... ok
+test_standalone_clean_directory_run_and_receipts (test_ged_v1_r6.GEDR6Tests.test_standalone_clean_directory_run_and_receipts) ... 
+
+SECOND RUN: recursion guard added. Two assertions remained sensitive to default Decimal precision, and the snapshot encountered them too.
+These failed log entries are preserved verbatim:
+
+test_analytic_core_volume (test_ged_v1_r6.GEDR6Tests.test_analytic_core_volume) ... ok
+test_baseline_same_at_all_radii (test_ged_v1_r6.GEDR6Tests.test_baseline_same_at_all_radii) ... ok
+test_center_energy_enclosed_zero (test_ged_v1_r6.GEDR6Tests.test_center_energy_enclosed_zero) ... ok
+test_center_gravity_zero (test_ged_v1_r6.GEDR6Tests.test_center_gravity_zero) ... ok
+test_core_boundary_difference_is_nonzero (test_ged_v1_r6.GEDR6Tests.test_core_boundary_difference_is_nonzero) ... ok
+test_core_boundary_independent_formula (test_ged_v1_r6.GEDR6Tests.test_core_boundary_independent_formula) ... ok
+test_core_loading_has_larger_inner_correction (test_ged_v1_r6.GEDR6Tests.test_core_loading_has_larger_inner_correction) ... ok
+test_core_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_core_weighted_energy) ... ok
+test_dependency_checker (test_ged_v1_r6.GEDR6Tests.test_dependency_checker) ... ok
+test_each_case_has_same_material_inventory (test_ged_v1_r6.GEDR6Tests.test_each_case_has_same_material_inventory) ... FAIL
+test_elastic_density_in_pascal (test_ged_v1_r6.GEDR6Tests.test_elastic_density_in_pascal) ... ok
+test_enclosed_fraction_inner_bounds (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_inner_bounds) ... ok
+test_enclosed_fraction_shell_before_core (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_before_core) ... ok
+test_enclosed_fraction_shell_outer (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_outer) ... ok
+test_energy_repartition_conserves (test_ged_v1_r6.GEDR6Tests.test_energy_repartition_conserves) ... ok
+test_equal_total_allocated_energy (test_ged_v1_r6.GEDR6Tests.test_equal_total_allocated_energy) ... ok
+test_experiment_id (test_ged_v1_r6.GEDR6Tests.test_experiment_id) ... ok
+test_exterior_delta_fields_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_delta_fields_equal) ... ok
+test_exterior_full_total_field_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_full_total_field_equal) ... ok
+test_exterior_inverse_square (test_ged_v1_r6.GEDR6Tests.test_exterior_inverse_square) ... ok
+test_exterior_monopole_independent_formula (test_ged_v1_r6.GEDR6Tests.test_exterior_monopole_independent_formula) ... ok
+test_ice_strain_small (test_ged_v1_r6.GEDR6Tests.test_ice_strain_small) ... ok
+test_independent_total_rest_mass (test_ged_v1_r6.GEDR6Tests.test_independent_total_rest_mass) ... ok
+test_internal_field_difference_at_75m (test_ged_v1_r6.GEDR6Tests.test_internal_field_difference_at_75m) ... ok
+test_invalid_bad_fraction (test_ged_v1_r6.GEDR6Tests.test_invalid_bad_fraction) ... ok
+test_invalid_config_id (test_ged_v1_r6.GEDR6Tests.test_invalid_config_id) ... ok
+test_invalid_core_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_core_radius) ... ok
+test_invalid_duplicate_sample (test_ged_v1_r6.GEDR6Tests.test_invalid_duplicate_sample) ... ok
+test_invalid_equal_shell_bounds (test_ged_v1_r6.GEDR6Tests.test_invalid_equal_shell_bounds) ... ok
+test_invalid_missing_outer_boundary (test_ged_v1_r6.GEDR6Tests.test_invalid_missing_outer_boundary) ... ok
+test_invalid_negative_energy (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_energy) ... ok
+test_invalid_negative_modulus (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_modulus) ... ok
+test_invalid_negative_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_radius) ... ok
+test_invalid_nonfinite (test_ged_v1_r6.GEDR6Tests.test_invalid_nonfinite) ... ok
+test_invalid_reversed_fractions (test_ged_v1_r6.GEDR6Tests.test_invalid_reversed_fractions) ... ok
+test_invalid_wrong_R5_pin (test_ged_v1_r6.GEDR6Tests.test_invalid_wrong_R5_pin) ... ok
+test_iron_strain_small (test_ged_v1_r6.GEDR6Tests.test_iron_strain_small) ... ok
+test_mass_equivalence_fixed_at_exterior (test_ged_v1_r6.GEDR6Tests.test_mass_equivalence_fixed_at_exterior) ... ok
+test_no_claim_of_detection (test_ged_v1_r6.GEDR6Tests.test_no_claim_of_detection) ... ok
+test_pinned_dependency_failure_is_detected (test_ged_v1_r6.GEDR6Tests.test_pinned_dependency_failure_is_detected) ... ok
+test_pinned_r2_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r2_exact_sha256) ... ok
+test_pinned_r5_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r5_exact_sha256) ... ok
+test_sample_radii_sorted (test_ged_v1_r6.GEDR6Tests.test_sample_radii_sorted) ... ok
+test_scientific_limits_are_present (test_ged_v1_r6.GEDR6Tests.test_scientific_limits_are_present) ... ok
+test_serialization_preserves_small_values (test_ged_v1_r6.GEDR6Tests.test_serialization_preserves_small_values) ... ok
+test_shell_fraction_75m_analytic (test_ged_v1_r6.GEDR6Tests.test_shell_fraction_75m_analytic) ... ok
+test_shell_volume_seven_times_core (test_ged_v1_r6.GEDR6Tests.test_shell_volume_seven_times_core) ... FAIL
+test_shell_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_shell_weighted_energy) ... ok
+test_source_manifest_files_exist (test_ged_v1_r6.GEDR6Tests.test_source_manifest_files_exist) ... ok
+test_standalone_clean_directory_run_and_receipts (test_ged_v1_r6.GEDR6Tests.test_standalone_clean_directory_run_and_receipts) ... ERROR
+test_zero_energy_enclosed_inside_shell_center (test_ged_v1_r6.GEDR6Tests.test_zero_energy_enclosed_inside_shell_center) ... ok
+
+======================================================================
+ERROR: test_standalone_clean_directory_run_and_receipts (test_ged_v1_r6.GEDR6Tests.test_standalone_clean_directory_run_and_receipts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R6_build/test_ged_v1_r6.py", line 267, in test_standalone_clean_directory_run_and_receipts
+    out=ged.run_experiment(root)
+  File "/mnt/data/GED_V1_R6_build/ged_v1_r6.py", line 381, in run_experiment
+    raise RuntimeError(f'Frozen run tests failed; failure evidence kept: {out}')
+RuntimeError: Frozen run tests failed; failure evidence kept: /tmp/tmpvnh8nbc1/runs/GED_V1_R6_20261024T172026158443Z_43d2292a
+
+======================================================================
+FAIL: test_each_case_has_same_material_inventory (test_ged_v1_r6.GEDR6Tests.test_each_case_has_same_material_inventory)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R6_build/test_ged_v1_r6.py", line 77, in test_each_case_has_same_material_inventory
+    self.assertEqual(self.geom['total_rest_mass_kg'], self.geom['core_rest_mass_kg']+self.geom['shell_rest_mass_kg'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decim[14 chars].524092597398785217280136118715558924611814512651819610000000') != Decim[14 chars].524092597398785217')
+
+======================================================================
+FAIL: test_shell_volume_seven_times_core (test_ged_v1_r6.GEDR6Tests.test_shell_volume_seven_times_core)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R6_build/test_ged_v1_r6.py", line 55, in test_shell_volume_seven_times_core
+    self.assertLess(abs(self.geom['shell_volume_m3'] - self.geom['core_volume_m3'] * 7), Decimal('1e-60'))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('1.739133017699690340623765422E-22') not less than Decimal('1E-60')
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.673s
+
+FAILED (failures=2, errors=1)

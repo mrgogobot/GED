@@ -1,0 +1,44 @@
+{
+  "entry_command": "ged_v1_r7.py",
+  "environment": {
+    "PYTHONHASHSEED": null,
+    "PYTHONPATH": null,
+    "decimal_precision_digits": 70,
+    "frozen_test_PYTHONDONTWRITEBYTECODE": "1",
+    "third_party_dependencies": []
+  },
+  "experiment_id": "GED-V1-R7",
+  "frozen_test_command": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python -m unittest -v test_ged_v1_r7.py",
+  "frozen_test_return_code": 0,
+  "git": {
+    "note": "Git not required or modified.",
+    "release_tag": null,
+    "repository_commit": null,
+    "working_tree_dirty": null
+  },
+  "input_sha256": {
+    "GED_V1_R7_DEV_AUDIT.md": "e3282ebd8638753393784dee848d36ddf8d15dc56adaf66782c21f9d591894ba",
+    "GED_V1_R7_PRECISION_FAILURE_A.log": "54a24185d5cb2119c7523e0d6c63df05c187e94acdf38523131301020a514b93",
+    "GED_V1_R7_README.md": "d25b54afd6825dd1ce871d014d257c38f470e84fa01aba20c3877bc3ffc2ac32",
+    "GED_V1_R7_REPORT_FORMAT_FAILURE_A.log": "ab1249a98d409bdb5ab5cdf15f91bb03b3d6a2e5243b7fc7480f34deb5a6b123",
+    "GED_V1_R7_config.json": "b07e08f3fea7c313379d411652f86e8921a873e1ea27b3c7b4fbfa40bdc36b6f",
+    "ged_v1_r7.py": "ed49bb9c470e7eaff875d7193f1a6ad144b4d8764d6be61dae858c9c65caba01",
+    "test_ged_v1_r7.py": "607f97a6ac1e9d37f155c94b81c08c5a166ff8b7ccb7162fb4585f284f716a2e"
+  },
+  "output_sha256_before_manifest": {
+    "field_samples.csv": "6cb44df1447a4c8a4a4f4230c63cbd2bf9db27548e8c620a5b1e45ccfdd81d7f",
+    "report.txt": "b87a617d54f12a6fcdf60120a3c4b6eec0aea9f40968f2819a252f9e9a751e0d",
+    "results.json": "de810f73fb05f174fa11b0a3bb8853eea6402fd54cfa353458779261b1f5bc48",
+    "tests.txt": "d9f23aa775993ff6dc4556d901240d3719ac7e37903705e1035259fabcebbdce"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "project_directory": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED",
+  "publication_status": "local_only; no GitHub or Zenodo upload before R10 without separate consent",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "run_id": "GED_V1_R7_20261024T184047105512Z_8058df5c",
+  "scientific_status": "numerical control, not a new gravitational finding",
+  "snapshot_directory": "input_snapshot/",
+  "timestamp_utc": "2026-10-24T18:40:47.105512+00:00",
+  "working_directory": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED"
+}

@@ -1,0 +1,156 @@
+{
+  "added_energy_j": 100000000.0,
+  "components_per_probe": 3,
+  "equivalent_mass_kg": 1.1126500560536184e-09,
+  "experiment_id": "GED-V1-R8",
+  "limits": [
+    "Exact uniform shell theorem nonuniqueness; classification restricted to three preselected patterns",
+    "Perfectly known/subtracted background and source energy; no unknown source amplitudes or positions",
+    "Independent Gaussian synthetic noise only; no real gravimeter calibration, systematic errors, or laboratory data",
+    "Point energy parcels are mathematical approximations; no stress equilibrium or source transport",
+    "Newtonian weak-field treatment; no complete stress-energy tensor, Einstein equations, or binding microphysics",
+    "No new gravitational information channel derived, measured, or confirmed"
+  ],
+  "noise_sweep": [
+    {
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "cube": {
+          "cube": 200,
+          "pair_x": 0,
+          "pair_y": 0
+        },
+        "pair_x": {
+          "cube": 0,
+          "pair_x": 200,
+          "pair_y": 0
+        },
+        "pair_y": {
+          "cube": 0,
+          "pair_x": 0,
+          "pair_y": 200
+        }
+      },
+      "correct": 600,
+      "noise_std_m_s2": 0.0,
+      "total": 600
+    },
+    {
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "cube": {
+          "cube": 200,
+          "pair_x": 0,
+          "pair_y": 0
+        },
+        "pair_x": {
+          "cube": 0,
+          "pair_x": 200,
+          "pair_y": 0
+        },
+        "pair_y": {
+          "cube": 0,
+          "pair_x": 0,
+          "pair_y": 200
+        }
+      },
+      "correct": 600,
+      "noise_std_m_s2": 1e-26,
+      "total": 600
+    },
+    {
+      "accuracy": 1.0,
+      "confusion_matrix": {
+        "cube": {
+          "cube": 200,
+          "pair_x": 0,
+          "pair_y": 0
+        },
+        "pair_x": {
+          "cube": 0,
+          "pair_x": 200,
+          "pair_y": 0
+        },
+        "pair_y": {
+          "cube": 0,
+          "pair_x": 0,
+          "pair_y": 200
+        }
+      },
+      "correct": 600,
+      "noise_std_m_s2": 1e-25,
+      "total": 600
+    },
+    {
+      "accuracy": 0.48833333333333334,
+      "confusion_matrix": {
+        "cube": {
+          "cube": 67,
+          "pair_x": 76,
+          "pair_y": 57
+        },
+        "pair_x": {
+          "cube": 38,
+          "pair_x": 108,
+          "pair_y": 54
+        },
+        "pair_y": {
+          "cube": 39,
+          "pair_x": 43,
+          "pair_y": 118
+        }
+      },
+      "correct": 293,
+      "noise_std_m_s2": 1e-24,
+      "total": 600
+    },
+    {
+      "accuracy": 0.315,
+      "confusion_matrix": {
+        "cube": {
+          "cube": 34,
+          "pair_x": 83,
+          "pair_y": 83
+        },
+        "pair_x": {
+          "cube": 31,
+          "pair_x": 87,
+          "pair_y": 82
+        },
+        "pair_y": {
+          "cube": 39,
+          "pair_x": 93,
+          "pair_y": 68
+        }
+      },
+      "correct": 189,
+      "noise_std_m_s2": 1e-23,
+      "total": 600
+    }
+  ],
+  "noiseless_classifications": {
+    "cube": "cube",
+    "pair_x": "pair_x",
+    "pair_y": "pair_y"
+  },
+  "observed": false,
+  "physics": "Newtonian synthetic gravity; no additional coupling",
+  "probe_count": 24,
+  "recoverability_scope": "restricted known-template classification; known added energy and exact baseline subtraction",
+  "shell_null_control": {
+    "external_max_absolute_difference_m_s2": 0.0,
+    "external_signatures_equal": true,
+    "inside_field_a_x_m_s2": -2.9704641076474664e-23,
+    "inside_field_b_x_m_s2": 0.0,
+    "internal_probe_radius_m": 50.0,
+    "shell_radii_m": [
+      30.0,
+      70.0
+    ]
+  },
+  "template_separation_l2_m_s2": {
+    "pair_x_vs_cube": 6.516157324221632e-25,
+    "pair_x_vs_pair_y": 1.1187175306749575e-24,
+    "pair_y_vs_cube": 6.516157324221632e-25
+  }
+}

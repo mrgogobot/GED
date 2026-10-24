@@ -1,0 +1,23 @@
+GED-V1-R9 — GRAVITATIONAL INVERSE RECONSTRUCTION LIMITS
+=======================================================
+SYNTHETIC NEWTONIAN CONTROL; NOT AN OBSERVATION OR NEW GRAVITY
+Reference acceleration: 1.856540067280e-24 m/s^2
+One-probe constrained rank: 4/6, nullity 2
+One-probe alternate physically nonnegative shares L1 difference: 0.250044562244
+Max one-probe field residual: 2.775558e-17 (g_ref units)
+Radial-only scalar measurements, constrained rank: 3/6
+Distributed full-vector rank: 6/6
+Noiseless full-vector L1 share error: 1.110223e-15
+Exact exterior spherical-shell field difference: 0.000000e+00 (g_ref units)
+Interior shell field difference: 1.959184e+01 (g_ref units)
+
+NOISE SWEEP (mean L1 energy-share reconstruction error):
+  sigma=0.00e+00 g_ref: mean L1=1.110223e-15 over 100 trials
+  sigma=1.00e-04 g_ref: mean L1=0.0015836112 over 100 trials
+  sigma=1.00e-03 g_ref: mean L1=0.015783893 over 100 trials
+  sigma=1.00e-02 g_ref: mean L1=0.14928384 over 100 trials
+  sigma=1.00e-01 g_ref: mean L1=0.73147071 over 100 trials
+
+VERDICT: Exact ambiguity exists with incomplete geometry; full-rank
+inversion is recoverable for this fixed-site prior and becomes less
+reliable under numerical noise. No new information channel found.

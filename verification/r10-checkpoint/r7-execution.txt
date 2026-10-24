@@ -1,0 +1,17 @@
+GED-V1-R7 — ASYMMETRIC ENERGY / NEWTONIAN MULTIPOLE SCOUT
+===================================================================
+NO NEW GRAVITY OR MATERIAL-INSTRUCTION INFORMATION CHANNEL DETECTED
+Common background mass: 7.481702904524092597398785E+9 kg
+Added energy each case: 100000000 J
+Added equivalent mass each case: 1.112650056053618432174090E-9 kg
+Monopole matches, dipoles vanish; quadrupoles differ.
+Cubic quadrupole vanishes but higher moments remain.
+At r=200m along +x, exact pair_x - cube g_r: -6.141600042717311254966278E-25 m/s^2
+Quadrupole-only prediction for the difference: -5.012658181655099213755182E-25 m/s^2
+Relative truncation error: 1.838188506594315785889661E-1
+Full source and all calculated samples are in the preserved files.
+No pressure/stress equilibrium, source transport, or full GR modeled.
+Scientific verdict: expected Newtonian multipole structure only.
+Tests: PASS
+Results and receipts: /Users/turnipresearchlibrary/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an-2/work/rerun-r7/runs/GED_V1_R7_20261024T202517395011Z_5e4cc9e6
+Run-file checksum manifest: /Users/turnipresearchlibrary/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an-2/work/rerun-r7/runs/GED_V1_R7_20261024T202517395011Z_5e4cc9e6/SHA256SUMS

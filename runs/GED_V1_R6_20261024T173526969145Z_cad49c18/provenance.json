@@ -1,0 +1,60 @@
+{
+  "acceptance_status": "LOCAL_NUMERICAL_TEST_PASS_PENDING_USER_REPRODUCTION_AND_AUDIT",
+  "command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/ged_v1_r6.py",
+    "--config",
+    "GED_V1_R6_config.json"
+  ],
+  "dependencies": "Python standard library, pinned GED-V1-R2 and GED-V1-R5",
+  "experiment_id": "GED-V1-R6",
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "exact_tag": null
+  },
+  "inputs_SHA256": {
+    "GED_V1_R6_DEV_AUDIT.md": "f2065f24d264b84cb027f7824c3c7e552ddf47cea6d17e229c6d41a8e87166e9",
+    "GED_V1_R6_FAILURE_A.log": "5f3574bc733aaa7d785daa847c74d6ea18f38c3294f51e267fa762fa39e959b2",
+    "GED_V1_R6_README.md": "a84548fffe0b1685c54a4e0303be489b1d30dcce1bd0cf62e32aa54f30919d10",
+    "GED_V1_R6_config.json": "cced91b523e262d5bf40fb16d4c9424daf9378d54a7310b1aa5fee4d3b0f4240",
+    "ged_v1_r2.py": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+    "ged_v1_r5.py": "608b67e91756e26667818743cdb906d487eeae65ca3d3f1de350bd87af50749d",
+    "ged_v1_r6.py": "2aec3390b20a2778ec82176d253970fd1cb9e769e007ae9b9cd036bea85477a9",
+    "test_ged_v1_r6.py": "bf83c300c4eb7196c15e9261f9b491795c3d590650a38c032eae2f08f7b44c19"
+  },
+  "limitations": [
+    "Idealized radial assignment of elastic energy: does not solve mechanical displacement compatibility, hydrostatic equilibrium, stress continuity or loading apparatus.",
+    "Energy density U/V is a scalar monopole bookkeeping profile, NOT a complete GR stress-energy tensor.",
+    "Physical elastic strains are derived from illustrative Young's moduli measured under differing conditions, not validated asteroid material models.",
+    "An actual stable loaded body has stresses, pressure and supports; the full gravitating combined apparatus must be solved before predicting a measurable field.",
+    "The Newtonian shell theorem applies to stipulated spherical radial densities; elastic deformation may break that symmetry in real samples.",
+    "Only an incremental E/c^2 field proxy is computed. Full GR and changing gravitational self-energy are omitted.",
+    "The two configurations are distinct external loading configurations. Repartitioning only asserts energy accounting, not a physically realizable reversible pathway.",
+    "No observed data, no additional information-field coupling, no new gravity mechanism established."
+  ],
+  "machine": "arm64",
+  "outputs_SHA256": {
+    "radial_energy_gravity.csv": "0fcdaccf333fcf44a031b79feeb2539a76b6f74fe68e2f5a9d788586acca9e7d",
+    "report.txt": "cb472b33604f054418788d0d6cb494157d29ec10522e7c245b4b7f330fb38e47",
+    "results.json": "0af59142d81d1b1021bb89da91fadc751777129e758f550c32572be5078bb821",
+    "tests.txt": "d1dbb771a3be23e9c78d87f303232f59c0167dcfc667c2bdc72ad21c0729cbf8"
+  },
+  "pinned_r2_expected_SHA256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "pinned_r5_expected_SHA256": "608b67e91756e26667818743cdb906d487eeae65ca3d3f1de350bd87af50749d",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "publication_policy": "LOCAL_ONLY; next planned GitHub/Zenodo release at GED-V1-R10 or definite finding",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "run_id": "GED_V1_R6_20261024T173526969145Z_cad49c18",
+  "test_command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_ged_v1_r6.py"
+  ],
+  "test_exit_status": 0,
+  "utc_start": "2026-10-24T17:35:26.969145+00:00"
+}

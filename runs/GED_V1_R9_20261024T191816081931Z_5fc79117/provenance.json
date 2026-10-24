@@ -1,0 +1,42 @@
+{
+  "command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "ged_v1_r9.py"
+  ],
+  "created_utc": "20261024T191816081931Z",
+  "experiment_id": "GED-V1-R9",
+  "floating_point_model": "Python float64; RREF tolerance 1e-11; printed errors are numerical",
+  "git_repository_unchanged": true,
+  "input_sha256": {
+    "GED_V1_R9_DEV_AUDIT.md": "ff2462c0ccb7c8bd6cb5b54a02dc0696872200e80111fffc6ff0fb3afaf12b4c",
+    "GED_V1_R9_README.md": "70027970d6504a4cd5ecacace95915188072d1f66a804a63944fffb16b18ba6f",
+    "GED_V1_R9_config.json": "e8670e9673ca366db9ca9a3d93d032ce13222051354daa8305c12c6a1931516a",
+    "ged_v1_r9.py": "5c7a50b2ecb3e38f733cfc284c9df7d047726dae166ac0c8d1dadb97e41f4815",
+    "test_ged_v1_r9.py": "34d231c7d3925f5500a7562711a955388619b27d13d36fe6bb6041b077b8e941"
+  },
+  "limitations": [
+    "All data are simulated, not observations.",
+    "Known six source positions and exact added energy total are strong priors.",
+    "Common much larger body gravitational field is assumed subtracted perfectly.",
+    "Point-equivalent energy parcels are not an elastic equilibrium or atomic binding model.",
+    "No full GR, pressure, support stresses, dynamical gravity or material response is solved.",
+    "RREF ranks are numerical and depend on the dimensionless pivot tolerance.",
+    "Normal-equation active-set fitting is only for this small conditioned toy basis.",
+    "Noise is assumed independent Gaussian with frozen RNG seed, not real instrument performance.",
+    "No additional gravitational information channel is derived or detected."
+  ],
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "random_seed": 20261024,
+  "source_git_head_if_present": null,
+  "verification_command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "-m",
+    "unittest",
+    "-v",
+    "test_ged_v1_r9.py"
+  ],
+  "verification_exit_status": 0,
+  "version_status": "local_only_not_published",
+  "zenodo_unchanged": true
+}

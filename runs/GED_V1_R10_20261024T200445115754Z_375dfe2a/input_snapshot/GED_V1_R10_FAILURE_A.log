@@ -1,0 +1,95 @@
+test_A_B_different_distribution (test_ged_v1_r10.GEDR10Tests.test_A_B_different_distribution) ... ok
+test_A_C_identical_report (test_ged_v1_r10.GEDR10Tests.test_A_C_identical_report) ... ok
+test_A_C_same_distribution (test_ged_v1_r10.GEDR10Tests.test_A_C_same_distribution) ... ok
+test_all_exterior_rows_equal (test_ged_v1_r10.GEDR10Tests.test_all_exterior_rows_equal) ... ok
+test_analytic_gravity_at_10 (test_ged_v1_r10.GEDR10Tests.test_analytic_gravity_at_10) ... ok
+test_analytic_gravity_at_150 (test_ged_v1_r10.GEDR10Tests.test_analytic_gravity_at_150) ... ok
+test_atomic_microphysics_not_claimed (test_ged_v1_r10.GEDR10Tests.test_atomic_microphysics_not_claimed) ... ok
+test_binding_contribution_negative (test_ged_v1_r10.GEDR10Tests.test_binding_contribution_negative) ... ok
+test_bound_rest_masses_differ_A_C (test_ged_v1_r10.GEDR10Tests.test_bound_rest_masses_differ_A_C) ... ok
+test_center_enclosed_mass_zero (test_ged_v1_r10.GEDR10Tests.test_center_enclosed_mass_zero) ... ok
+test_center_gravity_zero (test_ged_v1_r10.GEDR10Tests.test_center_gravity_zero) ... ok
+test_enclosed_mass_r10_B (test_ged_v1_r10.GEDR10Tests.test_enclosed_mass_r10_B) ... ok
+test_enclosed_mass_r10_independent (test_ged_v1_r10.GEDR10Tests.test_enclosed_mass_r10_independent) ... ok
+test_exact_fraction_inner (test_ged_v1_r10.GEDR10Tests.test_exact_fraction_inner) ... ok
+test_exact_fraction_mid (test_ged_v1_r10.GEDR10Tests.test_exact_fraction_mid) ... ok
+test_exact_fraction_reject_invalid (test_ged_v1_r10.GEDR10Tests.test_exact_fraction_reject_invalid) ... ok
+test_exact_inverse_fraction_math (test_ged_v1_r10.GEDR10Tests.test_exact_inverse_fraction_math) ... ok
+test_exterior_equality_all_samples (test_ged_v1_r10.GEDR10Tests.test_exterior_equality_all_samples) ... ok
+test_exterior_in_reports_zero (test_ged_v1_r10.GEDR10Tests.test_exterior_in_reports_zero) ... ok
+test_exterior_nullity_two (test_ged_v1_r10.GEDR10Tests.test_exterior_nullity_two) ... ok
+test_exterior_rank_one (test_ged_v1_r10.GEDR10Tests.test_exterior_rank_one) ... ok
+test_fraction_after_shell (test_ged_v1_r10.GEDR10Tests.test_fraction_after_shell) ... ok
+test_fraction_before_shell (test_ged_v1_r10.GEDR10Tests.test_fraction_before_shell) ... ok
+test_fraction_boundary (test_ged_v1_r10.GEDR10Tests.test_fraction_boundary) ... ok
+test_fraction_inside_first_shell (test_ged_v1_r10.GEDR10Tests.test_fraction_inside_first_shell) ... ok
+test_fraction_middle_shell_analytic (test_ged_v1_r10.GEDR10Tests.test_fraction_middle_shell_analytic) ... ok
+test_full_gr_not_claimed (test_ged_v1_r10.GEDR10Tests.test_full_gr_not_claimed) ... ok
+test_id (test_ged_v1_r10.GEDR10Tests.test_id) ... ok
+test_identity_degeneracy_all_radii (test_ged_v1_r10.GEDR10Tests.test_identity_degeneracy_all_radii) ... ok
+test_input_reject_bad_binding_sign (test_ged_v1_r10.GEDR10Tests.test_input_reject_bad_binding_sign) ... ok
+test_input_reject_boolean_constant (test_ged_v1_r10.GEDR10Tests.test_input_reject_boolean_constant) ... ok
+test_input_reject_duplicate_probes (test_ged_v1_r10.GEDR10Tests.test_input_reject_duplicate_probes) ... ok
+test_input_reject_hidden_science_claim (test_ged_v1_r10.GEDR10Tests.test_input_reject_hidden_science_claim) ... ok
+test_input_reject_identical_binding_ledgers (test_ged_v1_r10.GEDR10Tests.test_input_reject_identical_binding_ledgers) ... ok
+test_input_reject_mismatched_inventory_mass (test_ged_v1_r10.GEDR10Tests.test_input_reject_mismatched_inventory_mass) ... ok
+test_input_reject_nonfinite (test_ged_v1_r10.GEDR10Tests.test_input_reject_nonfinite) ... ok
+test_input_reject_wrong_id (test_ged_v1_r10.GEDR10Tests.test_input_reject_wrong_id) ... ok
+test_input_reject_wrong_shell (test_ged_v1_r10.GEDR10Tests.test_input_reject_wrong_shell) ... ok
+test_inputs_present (test_ged_v1_r10.GEDR10Tests.test_inputs_present) ... FAIL
+test_interior_difference (test_ged_v1_r10.GEDR10Tests.test_interior_difference) ... ok
+test_interior_rank_three (test_ged_v1_r10.GEDR10Tests.test_interior_rank_three) ... ok
+test_interior_reconstruction_exact (test_ged_v1_r10.GEDR10Tests.test_interior_reconstruction_exact) ... ok
+test_interior_report_diff (test_ged_v1_r10.GEDR10Tests.test_interior_report_diff) ... ok
+test_inverse_solution_expected (test_ged_v1_r10.GEDR10Tests.test_inverse_solution_expected) ... ok
+test_ledger_not_atomic_measurement (test_ged_v1_r10.GEDR10Tests.test_ledger_not_atomic_measurement) ... ok
+test_ledger_size_mismatch_rejected (test_ged_v1_r10.GEDR10Tests.test_ledger_size_mismatch_rejected) ... ok
+test_mass_recomposition_from_binding (test_ged_v1_r10.GEDR10Tests.test_mass_recomposition_from_binding) ... ok
+test_new_gravity_not_claimed (test_ged_v1_r10.GEDR10Tests.test_new_gravity_not_claimed) ... ok
+test_nonunique_alternative_same_exterior_measurements (test_ged_v1_r10.GEDR10Tests.test_nonunique_alternative_same_exterior_measurements) ... ERROR
+test_pressure_omission_stated (test_ged_v1_r10.GEDR10Tests.test_pressure_omission_stated) ... ok
+test_prior_evidence_document_present (test_ged_v1_r10.GEDR10Tests.test_prior_evidence_document_present) ... ok
+test_prior_evidence_local_vs_audited (test_ged_v1_r10.GEDR10Tests.test_prior_evidence_local_vs_audited) ... ok
+test_probe_samples_six (test_ged_v1_r10.GEDR10Tests.test_probe_samples_six) ... ok
+test_publication_is_not_part_of_run (test_ged_v1_r10.GEDR10Tests.test_publication_is_not_part_of_run) ... ok
+test_rank_independent_identity (test_ged_v1_r10.GEDR10Tests.test_rank_independent_identity) ... ok
+test_rank_zero_matrix (test_ged_v1_r10.GEDR10Tests.test_rank_zero_matrix) ... ok
+test_reject_inverted_shell (test_ged_v1_r10.GEDR10Tests.test_reject_inverted_shell) ... ok
+test_reject_irregular_matrix (test_ged_v1_r10.GEDR10Tests.test_reject_irregular_matrix) ... ok
+test_reject_negative_radius (test_ged_v1_r10.GEDR10Tests.test_reject_negative_radius) ... ok
+test_remarks_not_observations (test_ged_v1_r10.GEDR10Tests.test_remarks_not_observations) ... ok
+test_result_is_json_serializable (test_ged_v1_r10.GEDR10Tests.test_result_is_json_serializable) ... ok
+test_sha256_matches_standard_library (test_ged_v1_r10.GEDR10Tests.test_sha256_matches_standard_library) ... ok
+test_solve_known_integer_matrix (test_ged_v1_r10.GEDR10Tests.test_solve_known_integer_matrix) ... ok
+test_solve_singular_rejected (test_ged_v1_r10.GEDR10Tests.test_solve_singular_rejected) ... ok
+test_source_g_ref_units (test_ged_v1_r10.GEDR10Tests.test_source_g_ref_units) ... ok
+test_total_mass_A (test_ged_v1_r10.GEDR10Tests.test_total_mass_A) ... ok
+test_total_mass_B (test_ged_v1_r10.GEDR10Tests.test_total_mass_B) ... ok
+test_unearned_rejected_in_verdict (test_ged_v1_r10.GEDR10Tests.test_unearned_rejected_in_verdict) ... ok
+test_zero_gravity_without_source_mass (test_ged_v1_r10.GEDR10Tests.test_zero_gravity_without_source_mass) ... ok
+
+======================================================================
+ERROR: test_nonunique_alternative_same_exterior_measurements (test_ged_v1_r10.GEDR10Tests.test_nonunique_alternative_same_exterior_measurements)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R10_build/test_ged_v1_r10.py", line 108, in test_nonunique_alternative_same_exterior_measurements
+    self.assertEqual(sum(v*x for v,x in zip(row,self.A)),sum(v*x for v,x in zip(row,self.B)))
+                     ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R10_build/test_ged_v1_r10.py", line 108, in <genexpr>
+    self.assertEqual(sum(v*x for v,x in zip(row,self.A)),sum(v*x for v,x in zip(row,self.B)))
+                         ~^~
+TypeError: unsupported operand type(s) for *: 'Fraction' and 'decimal.Decimal'
+
+======================================================================
+FAIL: test_inputs_present (test_ged_v1_r10.GEDR10Tests.test_inputs_present)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R10_build/test_ged_v1_r10.py", line 45, in test_inputs_present
+    for name in m.INPUT_NAMES: self.assertTrue((m.ROOT/name).is_file(),name)
+                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : GED_V1_R10_README.md
+
+----------------------------------------------------------------------
+Ran 69 tests in 0.005s
+
+FAILED (failures=1, errors=1)

@@ -1,0 +1,32 @@
+{
+  "experiment_id": "GED-V1-R5",
+  "r2_dependency_sha256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "sample_volume_m3": "1",
+  "far_field_probe_m": "100",
+  "equal_stress_Pa": "100000",
+  "equal_strain_dimensionless": "0.00001",
+  "equal_elastic_energy_J": "1",
+  "materials": {
+    "polycrystalline_iron": {
+      "density_kg_m3": "7870",
+      "young_modulus_Pa": "208200000000",
+      "modulus_source": "Takaki et al (2020), polycrystalline Fe E_p=208.2 GPa, DOI:10.2355/tetsutohagane.TETSU-2019-129"
+    },
+    "polycrystalline_ice": {
+      "density_kg_m3": "917",
+      "young_modulus_Pa": "9170000000",
+      "modulus_source": "Ewing et al. (1934), approximate dynamic E=9.17 GPa near -5 C, as compiled by McCarthy / Hobbs"
+    }
+  },
+  "limitations": [
+    "Young's moduli are illustrative literature values obtained under differing temperatures and measurement conditions, not guaranteed values for arbitrary asteroids.",
+    "Uniaxial, isotropic, infinitesimal, Hookean, reversible elastic response only; no failure, creep, plasticity, anisotropy, porosity or phase change.",
+    "Fixed nominal reference volume and a far-field point-monopole gravitational proxy. Changes of shape, direction, supports and tensor stresses are not solved.",
+    "E/c^2 accounts for stored mechanical energy in a chosen sample boundary; loading reduces energy elsewhere in the apparatus. Not an isolated gravitational source creation.",
+    "Full general relativity, boundary/support stress-energy and non-spherical multipoles are not calculated. The proxy is not an exact change in the full field of a loaded sample.",
+    "No entropy number is computed because dissipative entropy depends on temperature and transport path.",
+    "No additional information channel, interaction instruction field or novel gravitational coupling is assumed, derived or experimentally detected."
+  ]
+}

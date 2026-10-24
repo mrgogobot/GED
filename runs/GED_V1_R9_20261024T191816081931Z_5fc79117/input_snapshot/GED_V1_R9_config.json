@@ -1,0 +1,33 @@
+{
+  "experiment_id": "GED-V1-R9",
+  "G_m3_kg_s2": 6.67430e-11,
+  "c_m_s": 299792458,
+  "total_added_energy_j": 100000000,
+  "body_radius_m": 100,
+  "source_offset_m": 50,
+  "reference_radius_m": 200,
+  "unknown_truth_energy_fractions": [0.35, 0.08, 0.19, 0.14, 0.11, 0.13],
+  "exterior_probes_m": [
+    [220, 35, 45],
+    [-180, 130, 80],
+    [80, -220, 140],
+    [100, 110, -190],
+    [-220, -70, 115],
+    [120, -70, -240],
+    [-100, 230, 60],
+    [210, -120, -150]
+  ],
+  "axis_probe_radii_m": [200, 250, 300, 450, 600, 850],
+  "shell_radii_m": [20, 45, 75],
+  "shell_energy_fractions": [[0.7, 0.2, 0.1], [0.1, 0.2, 0.7]],
+  "noise_sigma_in_reference_g": [0, 0.0001, 0.001, 0.01, 0.1],
+  "trials_per_level": 100,
+  "random_seed": 20261024,
+  "scientific_claims": {
+    "observation": false,
+    "new_gravity": false,
+    "source_positions_assumed": true,
+    "background_subtraction_assumed_exact": true,
+    "full_gr": false
+  }
+}

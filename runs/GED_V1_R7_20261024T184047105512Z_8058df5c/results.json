@@ -1,0 +1,120 @@
+{
+  "added_energy_J": "100000000",
+  "added_mass_equivalent_kg": "1.112650056053618432174090E-9",
+  "assumptions": {
+    "background": "unchanged spherical iron core and ice shell",
+    "higher_order": "through traceless Cartesian quadrupole only",
+    "parcels": "point-source representation of fixed total additional energy",
+    "physics": "Newtonian inverse-square sum; E/c^2 as a weak-field source proxy"
+  },
+  "cases": {
+    "cube_eight": {
+      "dipole_kg_m": [
+        "4.000000000000000000000000E-78",
+        "0.000000000000000000000000E-54",
+        "0.000000000000000000000000E-54"
+      ],
+      "energy_mass_kg": "1.112650056053618432174090E-9",
+      "number_of_energy_parcels": 8,
+      "quadrupole_kg_m2": [
+        [
+          "1.112650056053618432174090E-75",
+          "-6.000000000000000000000000E-76",
+          "0.000000000000000000000000E-52"
+        ],
+        [
+          "-6.000000000000000000000000E-76",
+          "1.112650056053618432174090E-75",
+          "0.000000000000000000000000E-52"
+        ],
+        [
+          "0.000000000000000000000000E-52",
+          "0.000000000000000000000000E-52",
+          "1.112650056053618432174090E-75"
+        ]
+      ],
+      "quadrupole_trace_kg_m2": "3.337950168160855296522270E-75",
+      "total_energy_J": "1.000000000000000000000000E+8"
+    },
+    "pair_x": {
+      "dipole_kg_m": [
+        "0.000000000000000000000000E-53",
+        "0.000000000000000000000000E-55",
+        "0.000000000000000000000000E-55"
+      ],
+      "energy_mass_kg": "1.112650056053618432174090E-9",
+      "number_of_energy_parcels": 2,
+      "quadrupole_kg_m2": [
+        [
+          "8.011080403586052711653448E-6",
+          "0.000000000000000000000000E-55",
+          "0.000000000000000000000000E-55"
+        ],
+        [
+          "0.000000000000000000000000E-55",
+          "-4.005540201793026355826724E-6",
+          "0.000000000000000000000000E-55"
+        ],
+        [
+          "0.000000000000000000000000E-55",
+          "0.000000000000000000000000E-55",
+          "-4.005540201793026355826724E-6"
+        ]
+      ],
+      "quadrupole_trace_kg_m2": "0.000000000000000000000000E-51",
+      "total_energy_J": "1.000000000000000000000000E+8"
+    },
+    "pair_y": {
+      "dipole_kg_m": [
+        "0.000000000000000000000000E-55",
+        "0.000000000000000000000000E-53",
+        "0.000000000000000000000000E-55"
+      ],
+      "energy_mass_kg": "1.112650056053618432174090E-9",
+      "number_of_energy_parcels": 2,
+      "quadrupole_kg_m2": [
+        [
+          "-4.005540201793026355826724E-6",
+          "0.000000000000000000000000E-55",
+          "0.000000000000000000000000E-55"
+        ],
+        [
+          "0.000000000000000000000000E-55",
+          "8.011080403586052711653448E-6",
+          "0.000000000000000000000000E-55"
+        ],
+        [
+          "0.000000000000000000000000E-55",
+          "0.000000000000000000000000E-55",
+          "-4.005540201793026355826724E-6"
+        ]
+      ],
+      "quadrupole_trace_kg_m2": "0.000000000000000000000000E-51",
+      "total_energy_J": "1.000000000000000000000000E+8"
+    }
+  },
+  "classification": "CONVENTIONAL NUMERICAL MULTIPOLE SCOUT \u2014 NO NEW GRAVITY",
+  "common_background_rest_mass_kg": "7.481702904524092597398785E+9",
+  "comparison_at_first_radius_on_x_axis": {
+    "exact_pair_x_minus_cube_radial_g_m_s2": "-6.141600042717311254966278E-25",
+    "quadrupole_pair_x_minus_cube_radial_g_m_s2": "-5.012658181655099213755182E-25",
+    "quadrupole_relative_error": "1.838188506594315785889661E-1",
+    "radius_m": "200"
+  },
+  "experiment_id": "GED-V1-R7",
+  "limits": [
+    "Parcels idealize spatially localized additional energy as Newtonian point sources; not real zero-size material inclusions.",
+    "The spherical iron-core/ice-shell background is held fixed, so its common exterior Newtonian field cancels in field differences.",
+    "No mechanical equilibrium, supporting apparatus, binding stress, pressure contribution, GR stress-energy tensor, or Einstein equations are solved.",
+    "Energy rearrangement pathways and energy transport are not modeled; only matched endpoint configurations are compared.",
+    "The one-hundred-million-joule redistributed energy is illustrative, not a measured asteroid perturbation.",
+    "The computed quadrupole tensor is source-defined, traceless, and Cartesian; it does not capture all higher multipoles.",
+    "A vanishing quadrupole does not imply a spherically symmetric full source; cubic source parcels have higher multipoles.",
+    "The absolute gravitational corrections are extraordinarily small; no instrumental feasibility or observation is claimed.",
+    "No new information-field coupling, novel gravitational law, or gravitational information instructions are inferred."
+  ],
+  "offset_m": "60",
+  "outer_radius_m": "100",
+  "sample_count": 45,
+  "scientific_verdict": "Asymmetric conventional sources can have different external Newtonian fields at matched total energy and dipole. No information-field coupling is derived or detected."
+}

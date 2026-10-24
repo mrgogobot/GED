@@ -1,0 +1,29 @@
+GED-V1-R8 — GRAVITATIONAL INFORMATION RECOVERABILITY
+===================================================================
+SYNTHETIC NEWTONIAN INVERSE SCOUT; NOT AN OBSERVATION OR NEW PHYSICS
+Energy per arrangement: 1e+08 J
+Equivalent mass: 1.112650056054e-09 kg
+Exterior probes: 24 (three components each)
+Noiseless classification among pair_x, pair_y, cube:
+  pair_x -> pair_x
+  pair_y -> pair_y
+  cube -> cube
+
+KNOWN-TEMPLATE SYNTHETIC NOISE SWEEP:
+  sigma=0.000e+00 m/s^2 : 600/600 = 100.00%
+  sigma=1.000e-26 m/s^2 : 600/600 = 100.00%
+  sigma=1.000e-25 m/s^2 : 600/600 = 100.00%
+  sigma=1.000e-24 m/s^2 : 293/600 = 48.83%
+  sigma=1.000e-23 m/s^2 : 189/600 = 31.50%
+
+EXACT EXTERIOR NONUNIQUENESS (UNIFORM SPHERICAL SHELLS):
+  Shell radii [30.0, 70.0] m, equal total added mass
+  All exterior field vectors equal: True
+  Max exterior component difference: 0.000e+00 m/s^2
+  At inside r=50.0 m: shell A gx=-2.970464107647e-23, shell B gx=0.000000000000e+00 m/s^2
+
+VERDICT: Restricted synthetic classification only. Exterior gravity cannot
+uniquely identify a general internal energy distribution; added noise
+reduces practical recoverability. No new gravity channel derived.
+Results and provenance: /Users/turnipresearchlibrary/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an-2/work/rerun-r8/runs/GED_V1_R8_20261024T202517711450Z_e4ab042a
+Run-file checksums: /Users/turnipresearchlibrary/Documents/Codex/2026-10-24/referenced-chatgpt-conversation-this-is-an-2/work/rerun-r8/runs/GED_V1_R8_20261024T202517711450Z_e4ab042a/SHA256SUMS

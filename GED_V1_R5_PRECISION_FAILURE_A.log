@@ -1,0 +1,101 @@
+test_baseline_gravity_differs_due_to_density (test_ged_v1_r5.GEDV1R5Tests.test_baseline_gravity_differs_due_to_density) ... ok
+test_dissipated_inside_keeps_sample_energy (test_ged_v1_r5.GEDV1R5Tests.test_dissipated_inside_keeps_sample_energy) ... ok
+test_elastic_units (test_ged_v1_r5.GEDV1R5Tests.test_elastic_units) ... ok
+test_energy_ledger_totals_zero (test_ged_v1_r5.GEDV1R5Tests.test_energy_ledger_totals_zero) ... ok
+test_energy_scales_with_strain_squared (test_ged_v1_r5.GEDV1R5Tests.test_energy_scales_with_strain_squared) ... ok
+test_energy_scales_with_stress_squared (test_ged_v1_r5.GEDV1R5Tests.test_energy_scales_with_stress_squared) ... ok
+test_energy_scales_with_volume (test_ged_v1_r5.GEDV1R5Tests.test_energy_scales_with_volume) ... ok
+test_equal_strain_ice_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_strain_ice_energy_independent) ... ok
+test_equal_strain_iron_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_strain_iron_energy_independent) ... ok
+test_equal_strain_matches_input (test_ged_v1_r5.GEDV1R5Tests.test_equal_strain_matches_input) ... ok
+test_equal_stress_ice_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_stress_ice_energy_independent) ... FAIL
+test_equal_stress_iron_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_stress_iron_energy_independent) ... FAIL
+test_equal_stress_matches_input (test_ged_v1_r5.GEDV1R5Tests.test_equal_stress_matches_input) ... ok
+test_experiment_id (test_ged_v1_r5.GEDV1R5Tests.test_experiment_id) ... ok
+test_exported_heat_goes_to_environment (test_ged_v1_r5.GEDV1R5Tests.test_exported_heat_goes_to_environment) ... ok
+test_fixed_strain_iron_stores_more (test_ged_v1_r5.GEDV1R5Tests.test_fixed_strain_iron_stores_more) ... ok
+test_fixed_strain_iron_stress_higher (test_ged_v1_r5.GEDV1R5Tests.test_fixed_strain_iron_stress_higher) ... ok
+test_fixed_stress_soft_ice_stores_more (test_ged_v1_r5.GEDV1R5Tests.test_fixed_stress_soft_ice_stores_more) ... ok
+test_fixed_stress_soft_ice_strains_more (test_ged_v1_r5.GEDV1R5Tests.test_fixed_stress_soft_ice_strains_more) ... ok
+test_gravity_increment_independent_formula (test_ged_v1_r5.GEDV1R5Tests.test_gravity_increment_independent_formula) ... ok
+test_gravity_increment_inverse_square (test_ged_v1_r5.GEDV1R5Tests.test_gravity_increment_inverse_square) ... FAIL
+test_is_numerical_not_observed (test_ged_v1_r5.GEDV1R5Tests.test_is_numerical_not_observed) ... ok
+test_loaded_sample_increases_energy (test_ged_v1_r5.GEDV1R5Tests.test_loaded_sample_increases_energy) ... ok
+test_mass_equivalent_independent_E_over_c_squared (test_ged_v1_r5.GEDV1R5Tests.test_mass_equivalent_independent_E_over_c_squared) ... ok
+test_mass_increment_baseline_fraction (test_ged_v1_r5.GEDV1R5Tests.test_mass_increment_baseline_fraction) ... FAIL
+test_matched_energy_monopole_correction_same (test_ged_v1_r5.GEDV1R5Tests.test_matched_energy_monopole_correction_same) ... ok
+test_matched_energy_yet_different_strains (test_ged_v1_r5.GEDV1R5Tests.test_matched_energy_yet_different_strains) ... ok
+test_matched_energy_yet_different_stresses (test_ged_v1_r5.GEDV1R5Tests.test_matched_energy_yet_different_stresses) ... ok
+test_moduli_are_distinct_and_positive (test_ged_v1_r5.GEDV1R5Tests.test_moduli_are_distinct_and_positive) ... ok
+test_no_new_coupling_asserted (test_ged_v1_r5.GEDV1R5Tests.test_no_new_coupling_asserted) ... ok
+test_pinned_r2_code_sha256 (test_ged_v1_r5.GEDV1R5Tests.test_pinned_r2_code_sha256) ... ok
+test_reject_bad_config_version (test_ged_v1_r5.GEDV1R5Tests.test_reject_bad_config_version) ... ok
+test_reject_bad_density (test_ged_v1_r5.GEDV1R5Tests.test_reject_bad_density) ... ok
+test_reject_bad_dependency (test_ged_v1_r5.GEDV1R5Tests.test_reject_bad_dependency) ... ok
+test_reject_boolean (test_ged_v1_r5.GEDV1R5Tests.test_reject_boolean) ... ok
+test_reject_both_stress_and_strain (test_ged_v1_r5.GEDV1R5Tests.test_reject_both_stress_and_strain) ... ok
+test_reject_invalid_gravitational_constant (test_ged_v1_r5.GEDV1R5Tests.test_reject_invalid_gravitational_constant) ... ok
+test_reject_negative_energy_ledger (test_ged_v1_r5.GEDV1R5Tests.test_reject_negative_energy_ledger) ... ok
+test_reject_negative_stress (test_ged_v1_r5.GEDV1R5Tests.test_reject_negative_stress) ... ok
+test_reject_negative_target (test_ged_v1_r5.GEDV1R5Tests.test_reject_negative_target) ... ok
+test_reject_neither_stress_nor_strain (test_ged_v1_r5.GEDV1R5Tests.test_reject_neither_stress_nor_strain) ... ok
+test_reject_nonfinite (test_ged_v1_r5.GEDV1R5Tests.test_reject_nonfinite) ... ok
+test_reject_overlarge_strain (test_ged_v1_r5.GEDV1R5Tests.test_reject_overlarge_strain) ... ok
+test_reject_probe_too_close (test_ged_v1_r5.GEDV1R5Tests.test_reject_probe_too_close) ... ok
+test_reversible_unload_restores_sample_and_reservoir (test_ged_v1_r5.GEDV1R5Tests.test_reversible_unload_restores_sample_and_reservoir) ... ok
+test_target_energy_ice (test_ged_v1_r5.GEDV1R5Tests.test_target_energy_ice) ... ok
+test_target_energy_iron (test_ged_v1_r5.GEDV1R5Tests.test_target_energy_iron) ... ok
+
+======================================================================
+FAIL: test_equal_stress_ice_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_stress_ice_energy_independent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 75, in test_equal_stress_ice_energy_independent
+    self.assertRel(actual, independent)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 30, in assertRel
+    self.assertLessEqual(abs(x - y), m.D(rel) * max(abs(y), Decimal('1e-60')))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('4.863685932388222464558342420938E-29') not less than or equal to Decimal('5.452562704471101417666303162E-53')
+
+======================================================================
+FAIL: test_equal_stress_iron_energy_independent (test_ged_v1_r5.GEDV1R5Tests.test_equal_stress_iron_energy_independent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 67, in test_equal_stress_iron_energy_independent
+    self.assertRel(actual, independent)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 30, in assertRel
+    self.assertLessEqual(abs(x - y), m.D(rel) * max(abs(y), Decimal('1e-60')))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('1.2007684918347742555235350624400E-30') not less than or equal to Decimal('2.401536983669548511047070125E-54')
+
+======================================================================
+FAIL: test_gravity_increment_inverse_square (test_ged_v1_r5.GEDV1R5Tests.test_gravity_increment_inverse_square)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 176, in test_gravity_increment_inverse_square
+    self.assertEqual(a['delta_g_point_monopole_proxy_m_s2'],
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     4 * b['delta_g_point_monopole_proxy_m_s2'])
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('7.42616026911866550185952865238507308698615372741624137589996E-31') != Decimal('7.426160269118665501859528652E-31')
+
+======================================================================
+FAIL: test_mass_increment_baseline_fraction (test_ged_v1_r5.GEDV1R5Tests.test_mass_increment_baseline_fraction)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 181, in test_mass_increment_baseline_fraction
+    self.assertRel(row['fractional_mass_increment'],
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                   row['delta_mass_if_energy_retained_kg'] / row['base_mass_kg'])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/GED_V1_R5_build/test_ged_v1_r5.py", line 30, in assertRel
+    self.assertLessEqual(abs(x - y), m.D(rel) * max(abs(y), Decimal('1e-60')))
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Decimal('1.0955730462078619531329627468952E-48') not less than or equal to Decimal('1.471751853051863771147684439E-72')
+
+----------------------------------------------------------------------
+Ran 47 tests in 0.003s
+
+FAILED (failures=4)

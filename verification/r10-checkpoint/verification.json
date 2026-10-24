@@ -1,0 +1,68 @@
+{
+  "python": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "dependencies": "Python standard library only",
+  "archives": {
+    "GED_V1_R5_to_R9_audit.zip": "c611f9f32d5b6fa01895e7f861cc076740eb78f5e22ce4ca86a660c97255916d",
+    "GED_V1_R10_audit.zip": "3d54e6b50558c771857813dca65b08749d1ede848015b3de82638d98b08b1049"
+  },
+  "runs": {
+    "R5": {
+      "manifest_entries_verified": 12,
+      "tests_passed": 47,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "elastic_cases.csv": true
+      },
+      "original_run": "GED_V1_R5_20261024T170734958958Z_a021fba5"
+    },
+    "R6": {
+      "manifest_entries_verified": 13,
+      "tests_passed": 51,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "radial_energy_gravity.csv": true
+      },
+      "original_run": "GED_V1_R6_20261024T173526969145Z_cad49c18"
+    },
+    "R7": {
+      "manifest_entries_verified": 12,
+      "tests_passed": 62,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "field_samples.csv": true
+      },
+      "original_run": "GED_V1_R7_20261024T184047105512Z_8058df5c"
+    },
+    "R8": {
+      "manifest_entries_verified": 10,
+      "tests_passed": 71,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "exterior_signatures.csv": true
+      },
+      "original_run": "GED_V1_R8_20261024T185900675560Z_0b69bb7e"
+    },
+    "R9": {
+      "manifest_entries_verified": 11,
+      "tests_passed": 88,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "noise_sweep.csv": true,
+        "probe_geometry.csv": true
+      },
+      "original_run": "GED_V1_R9_20261024T191816081931Z_5fc79117"
+    },
+    "R10": {
+      "manifest_entries_verified": 12,
+      "tests_passed": 69,
+      "numerical_output_byte_matches": {
+        "results.json": true,
+        "radial_samples.csv": true
+      },
+      "original_run": "GED_V1_R10_20261024T200445115754Z_375dfe2a"
+    }
+  },
+  "scientific_scope": "Qualified numerical scouts reproducing conventional physics; no new mechanism established."
+}

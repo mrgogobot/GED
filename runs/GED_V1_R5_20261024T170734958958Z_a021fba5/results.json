@@ -1,0 +1,342 @@
+{
+  "cases": {
+    "equal_applied_stress": {
+      "polycrystalline_ice": {
+        "base_mass_kg": "917",
+        "delta_g_point_monopole_proxy_m_s2": "4.04916045208215130962896873085336591438721577285509344378409E-32",
+        "delta_mass_if_energy_retained_kg": "6.06679419876564030629274789993462372741293584773698132206237E-18",
+        "elastic_energy_J": "0.54525627044711014176663031624863685932388222464558342420938",
+        "elastic_energy_density_J_m3": "0.54525627044711014176663031624863685932388222464558342420938",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.54525627044711014176663031624863685932388222464558342420938",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0.54525627044711014176663031624863685932388222464558342420938",
+            "sample_total_change_J": "0.54525627044711014176663031624863685932388222464558342420938",
+            "whole_system_balance_J": "0E-59"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "0.54525627044711014176663031624863685932388222464558342420938",
+            "loading_reservoir_J": "-0.54525627044711014176663031624863685932388222464558342420938",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-59"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.54525627044711014176663031624863685932388222464558342420938",
+            "sample_elastic_J": "0.54525627044711014176663031624863685932388222464558342420938",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0.54525627044711014176663031624863685932388222464558342420938",
+            "whole_system_balance_J": "0E-59"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "6.61591515677823370369983413297123634396176210222135367727630E-21",
+        "point_monopole_baseline_g_m_s2": "6.1203331E-12",
+        "strain_dimensionless": "0.0000109051254089422028353326063249727371864776444929116684841876",
+        "stress_Pa": "100000"
+      },
+      "polycrystalline_iron": {
+        "base_mass_kg": "7870",
+        "delta_g_point_monopole_proxy_m_s2": "1.78341985329458825693072253899737586142799080869746430737271E-33",
+        "delta_mass_if_energy_retained_kg": "2.67207025949476088418369347946207971087303658615504893003418E-19",
+        "elastic_energy_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+        "elastic_energy_density_J_m3": "0.0240153698366954851104707012487992315081652257444764649375600",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.0240153698366954851104707012487992315081652257444764649375600",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+            "sample_total_change_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+            "whole_system_balance_J": "0E-61"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+            "loading_reservoir_J": "-0.0240153698366954851104707012487992315081652257444764649375600",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-61"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.0240153698366954851104707012487992315081652257444764649375600",
+            "sample_elastic_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0.0240153698366954851104707012487992315081652257444764649375600",
+            "whole_system_balance_J": "0E-61"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "3.39526081257275842971244406539019022982596770794796560360125E-23",
+        "point_monopole_baseline_g_m_s2": "5.2526741E-11",
+        "strain_dimensionless": "4.80307396733909702209414024975984630163304514889529298751201E-7",
+        "stress_Pa": "100000"
+      }
+    },
+    "equal_imposed_strain": {
+      "polycrystalline_ice": {
+        "base_mass_kg": "917",
+        "delta_g_point_monopole_proxy_m_s2": "3.40489448339090813260259388711855601038315148402034667085015E-32",
+        "delta_mass_if_energy_retained_kg": "5.10150050700584051151820248882812581152053621206770248692769E-18",
+        "elastic_energy_J": "0.4585000000",
+        "elastic_energy_density_J_m3": "0.4585000000",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.4585000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0.4585000000",
+            "sample_total_change_J": "0.4585000000",
+            "whole_system_balance_J": "0E-10"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "0.4585000000",
+            "loading_reservoir_J": "-0.4585000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-10"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.4585000000",
+            "sample_elastic_J": "0.4585000000",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0.4585000000",
+            "whole_system_balance_J": "0E-10"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "5.56325028026809216087044982424004995803766217237481187233118E-21",
+        "point_monopole_baseline_g_m_s2": "6.1203331E-12",
+        "strain_dimensionless": "0.00001",
+        "stress_Pa": "91700.00000"
+      },
+      "polycrystalline_iron": {
+        "base_mass_kg": "7870",
+        "delta_g_point_monopole_proxy_m_s2": "7.73063284015253078743576932713286108355258603024030727231189E-31",
+        "delta_mass_if_energy_retained_kg": "1.15826870835181678789322765340677840126344126428843583181935E-16",
+        "elastic_energy_J": "10.4100000000",
+        "elastic_energy_density_J_m3": "10.4100000000",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-10.4100000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "10.4100000000",
+            "sample_total_change_J": "10.4100000000",
+            "whole_system_balance_J": "0E-10"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "10.4100000000",
+            "loading_reservoir_J": "-10.4100000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-10"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-10.4100000000",
+            "sample_elastic_J": "10.4100000000",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "10.4100000000",
+            "whole_system_balance_J": "0E-10"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "1.47175185305186377114768443889044269537921380468670372531048E-20",
+        "point_monopole_baseline_g_m_s2": "5.2526741E-11",
+        "strain_dimensionless": "0.00001",
+        "stress_Pa": "2082000.00000"
+      }
+    },
+    "equal_stored_elastic_energy": {
+      "polycrystalline_ice": {
+        "base_mass_kg": "917",
+        "delta_g_point_monopole_proxy_m_s2": "7.42616026911866550185952865238507308698615372741624137589996E-32",
+        "delta_mass_if_energy_retained_kg": "1.11265005605361843217408996484800999160753243447496237446623E-17",
+        "elastic_energy_J": "0.999999999999999999999999999999999999999999999999999999999995",
+        "elastic_energy_density_J_m3": "0.999999999999999999999999999999999999999999999999999999999995",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.999999999999999999999999999999999999999999999999999999999995",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0.999999999999999999999999999999999999999999999999999999999995",
+            "sample_total_change_J": "0.999999999999999999999999999999999999999999999999999999999995",
+            "whole_system_balance_J": "0E-60"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "0.999999999999999999999999999999999999999999999999999999999995",
+            "loading_reservoir_J": "-0.999999999999999999999999999999999999999999999999999999999995",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-60"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-0.999999999999999999999999999999999999999999999999999999999995",
+            "sample_elastic_J": "0.999999999999999999999999999999999999999999999999999999999995",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0.999999999999999999999999999999999999999999999999999999999995",
+            "whole_system_balance_J": "0E-60"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "1.21335883975312806125854957998692474548258716954739626441246E-20",
+        "point_monopole_baseline_g_m_s2": "6.1203331E-12",
+        "strain_dimensionless": "0.0000147682940172128228355411551439769445023647252309819317736139",
+        "stress_Pa": "135425.256137841585401912392670268581086684530368104314364039"
+      },
+      "polycrystalline_iron": {
+        "base_mass_kg": "7870",
+        "delta_g_point_monopole_proxy_m_s2": "7.42616026911866550185952865238507308698615372741624137589996E-32",
+        "delta_mass_if_energy_retained_kg": "1.11265005605361843217408996484800999160753243447496237446623E-17",
+        "elastic_energy_J": "1.00000000000000000000000000000000000000000000000000000000000",
+        "elastic_energy_density_J_m3": "1.00000000000000000000000000000000000000000000000000000000000",
+        "energy_ledger": {
+          "dissipated_as_retained_heat": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-1.00000000000000000000000000000000000000000000000000000000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "1.00000000000000000000000000000000000000000000000000000000000",
+            "sample_total_change_J": "1.00000000000000000000000000000000000000000000000000000000000",
+            "whole_system_balance_J": "0E-59"
+          },
+          "heat_exported_to_environment": {
+            "environment_J": "1.00000000000000000000000000000000000000000000000000000000000",
+            "loading_reservoir_J": "-1.00000000000000000000000000000000000000000000000000000000000",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0E-59"
+          },
+          "initial": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          },
+          "loaded_energy_stored": {
+            "environment_J": "0",
+            "loading_reservoir_J": "-1.00000000000000000000000000000000000000000000000000000000000",
+            "sample_elastic_J": "1.00000000000000000000000000000000000000000000000000000000000",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "1.00000000000000000000000000000000000000000000000000000000000",
+            "whole_system_balance_J": "0E-59"
+          },
+          "unloaded_reversibly": {
+            "environment_J": "0",
+            "loading_reservoir_J": "0",
+            "sample_elastic_J": "0",
+            "sample_heat_J": "0",
+            "sample_total_change_J": "0",
+            "whole_system_balance_J": "0"
+          }
+        },
+        "fractional_mass_increment": "1.41378660235529661013226170882847521169953295358953287733956E-21",
+        "point_monopole_baseline_g_m_s2": "5.2526741E-11",
+        "strain_dimensionless": "0.00000309937863686871824643912417866705359108269878166538489970694",
+        "stress_Pa": "645290.632196067138908625653998480557663417886342733136118985"
+      }
+    }
+  },
+  "energy_control_delta_g_difference_m_s2": "0E-91",
+  "experiment_id": "GED-V1-R5",
+  "limits": [
+    "Young's moduli are illustrative literature values obtained under differing temperatures and measurement conditions, not guaranteed values for arbitrary asteroids.",
+    "Uniaxial, isotropic, infinitesimal, Hookean, reversible elastic response only; no failure, creep, plasticity, anisotropy, porosity or phase change.",
+    "Fixed nominal reference volume and a far-field point-monopole gravitational proxy. Changes of shape, direction, supports and tensor stresses are not solved.",
+    "E/c^2 accounts for stored mechanical energy in a chosen sample boundary; loading reduces energy elsewhere in the apparatus. Not an isolated gravitational source creation.",
+    "Full general relativity, boundary/support stress-energy and non-spherical multipoles are not calculated. The proxy is not an exact change in the full field of a loaded sample.",
+    "No entropy number is computed because dissipative entropy depends on temperature and transport path.",
+    "No additional information channel, interaction instruction field or novel gravitational coupling is assumed, derived or experimentally detected."
+  ],
+  "novel_information_channel": "NOT_DERIVED_OR_TESTED",
+  "observational_data": false,
+  "verdict": "CONVENTIONAL_NUMERICAL_CONTROL_ONLY"
+}

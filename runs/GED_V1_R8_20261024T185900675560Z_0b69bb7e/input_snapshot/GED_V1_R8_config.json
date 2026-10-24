@@ -1,0 +1,23 @@
+{
+  "experiment_id": "GED-V1-R8",
+  "model": "Newtonian exterior gravitational inverse-problem scout",
+  "gravitational_constant_m3_kg_s2": 6.67430e-11,
+  "speed_of_light_m_s": 299792458.0,
+  "added_energy_j": 100000000.0,
+  "nominal_body_radius_m": 100.0,
+  "parcel_offset_radius_m": 50.0,
+  "exterior_probe_radii_m": [200.0, 300.0, 500.0, 800.0],
+  "candidate_classes": ["pair_x", "pair_y", "cube"],
+  "shell_radius_a_m": 30.0,
+  "shell_radius_b_m": 70.0,
+  "inside_shell_probe_radius_m": 50.0,
+  "gaussian_noise_std_m_s2": [0.0, 1e-26, 1e-25, 1e-24, 1e-23],
+  "trials_per_class_per_noise_level": 200,
+  "random_seed": 4102418,
+  "claims": {
+    "new_gravity_detected": false,
+    "observational_dataset": false,
+    "source_menu_assumed_known": true,
+    "baseline_subtracted_perfectly": true
+  }
+}

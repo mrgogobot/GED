@@ -1,0 +1,94 @@
+{
+  "title": "GED-V1-R10 retrospective evidence ledger",
+  "scope": "Only evidence reported in the conversation and bundle bytes present in the authoring workspace, not a re-audit of Mac run directories.",
+  "prior_experiments": [
+    {
+      "experiment": "GED-V0-R1",
+      "title": "Mass / fragmentation",
+      "reported_local_tests_passed": 12,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V0_R1_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "57c360d9a5f4e265b5af253f4fa199176a2a6ac950a362df340e6d7aa380f844"
+    },
+    {
+      "experiment": "GED-V1-R1",
+      "title": "Spherical null / toy coupling",
+      "reported_local_tests_passed": 20,
+      "status": "independent_archive_audit_reported",
+      "developer_bundle_filename": "GED_V1_R1_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "8f1836d765a97e7db4790c875817e2b28a857f7414537ffa455fafe28d868449"
+    },
+    {
+      "experiment": "GED-V1-R2",
+      "title": "Gravitational binding and mass-energy",
+      "reported_local_tests_passed": 26,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R2_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "cde2a069027794511be44788bd8c2260a0714be2b82c2361886be69f3a5aa4bb"
+    },
+    {
+      "experiment": "GED-V1-R3",
+      "title": "Entropic exhaust / structural persistence",
+      "reported_local_tests_passed": 46,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R3_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "bcd8b238bc906e64c275c62afb225007630b284090908528d7dcf0df57b50ca5"
+    },
+    {
+      "experiment": "GED-V1-R4",
+      "title": "Equal energy / different entropy",
+      "reported_local_tests_passed": 55,
+      "status": "independent_archive_audit_reported",
+      "developer_bundle_filename": "GED_V1_R4_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "415c6dc8a91e950733d8fc33b951ebf9876886eeb4f4cb76977d8334970119d5"
+    },
+    {
+      "experiment": "GED-V1-R5",
+      "title": "Stress-energy / material response",
+      "reported_local_tests_passed": 47,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R5_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "267589374b3271cf2062014db28926affed625aab01df142746c7e49969e8baa"
+    },
+    {
+      "experiment": "GED-V1-R6",
+      "title": "Radial stress-energy distribution",
+      "reported_local_tests_passed": 51,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R6_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "108b923b6ef92379dc46f8f2144ba8bdbc071557127964f167a4e6401a331d8f"
+    },
+    {
+      "experiment": "GED-V1-R7",
+      "title": "Asymmetric Newtonian multipoles",
+      "reported_local_tests_passed": 62,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R7_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "38515b69f8ba44ef0abcf6673c28b574ea10b405ba7491ee6741df96cf47974a"
+    },
+    {
+      "experiment": "GED-V1-R8",
+      "title": "Known-template recoverability",
+      "reported_local_tests_passed": 71,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R8_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "61f626b97c18a41d1bdf1749b4139d2df2e76826b6cc706563498fc9af3b23bb"
+    },
+    {
+      "experiment": "GED-V1-R9",
+      "title": "Inverse reconstruction limits",
+      "reported_local_tests_passed": 88,
+      "status": "local_pass_pending_archive_audit",
+      "developer_bundle_filename": "GED_V1_R9_bundle.zip",
+      "developer_bundle_sha256_verified_in_this_workspace": "3b3c023d2cc16a77f684139a15656a1354f6be43093273c710714474fb9c27be"
+    }
+  ],
+  "reported_local_pass_total": 478,
+  "count_warning": "Summing pass counts does not constitute running a combined suite; earlier tests overlap and have different software dependencies.",
+  "publication_checkpoint": "V1-R10: candidate release only; do not commit/push/publish before full run receipt audit and explicit user approval.",
+  "frozen_release_before_r10": {
+    "github_release": "https://github.com/mrgogobot/GED/releases/tag/ged-v1-r4",
+    "zenodo": "https://zenodo.org/records/23622641"
+  },
+  "scientific_findings": "Every numerical scout so far is a control of established Newtonian/thermodynamic/elastic physics; none detects a new gravitational material-instruction channel."
+}

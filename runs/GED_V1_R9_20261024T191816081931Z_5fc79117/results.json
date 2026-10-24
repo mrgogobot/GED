@@ -1,0 +1,183 @@
+{
+  "distributed_geometry": [
+    {
+      "nullity": 2,
+      "probe_count": 1,
+      "rank_with_total": 4,
+      "vector_components": 3
+    },
+    {
+      "nullity": 0,
+      "probe_count": 2,
+      "rank_with_total": 6,
+      "vector_components": 6
+    },
+    {
+      "nullity": 0,
+      "probe_count": 3,
+      "rank_with_total": 6,
+      "vector_components": 9
+    },
+    {
+      "nullity": 0,
+      "probe_count": 4,
+      "rank_with_total": 6,
+      "vector_components": 12
+    },
+    {
+      "nullity": 0,
+      "probe_count": 8,
+      "rank_with_total": 6,
+      "vector_components": 24
+    }
+  ],
+  "experiment_id": "GED-V1-R9",
+  "full_vector_noiseless": {
+    "inferred_fractions": [
+      0.35000000000000014,
+      0.08000000000000013,
+      0.18999999999999972,
+      0.13999999999999974,
+      0.11000000000000015,
+      0.13000000000000012
+    ],
+    "l1_share_error": 1.1102230246251565e-15,
+    "residual": 2.1570415377137042e-32
+  },
+  "limits": [
+    "All data are simulated, not observations.",
+    "Known six source positions and exact added energy total are strong priors.",
+    "Common much larger body gravitational field is assumed subtracted perfectly.",
+    "Point-equivalent energy parcels are not an elastic equilibrium or atomic binding model.",
+    "No full GR, pressure, support stresses, dynamical gravity or material response is solved.",
+    "RREF ranks are numerical and depend on the dimensionless pivot tolerance.",
+    "Normal-equation active-set fitting is only for this small conditioned toy basis.",
+    "Noise is assumed independent Gaussian with frozen RNG seed, not real instrument performance.",
+    "No additional gravitational information channel is derived or detected."
+  ],
+  "new_gravity": false,
+  "radial_scalar": {
+    "augmented_rank": 3,
+    "nullity": 3,
+    "probe_count": 6
+  },
+  "reference_acceleration_m_s2": 1.856540067279666e-24,
+  "source_sites_m": [
+    [
+      50,
+      0,
+      0
+    ],
+    [
+      -50,
+      0,
+      0
+    ],
+    [
+      0,
+      50,
+      0
+    ],
+    [
+      0,
+      -50,
+      0
+    ],
+    [
+      0,
+      0,
+      50
+    ],
+    [
+      0,
+      0,
+      -50
+    ]
+  ],
+  "sparse_one_probe": {
+    "alternative_fractions": [
+      0.38275340849540374,
+      0.16899508099477878,
+      0.13497771887799356,
+      0.07,
+      0.11327379163182391,
+      0.13
+    ],
+    "augmented_rank": 4,
+    "l1_share_difference": 0.2500445622440129,
+    "maximum_dimensionless_field_residual": 2.7755575615628914e-17,
+    "nullity": 2
+  },
+  "spherical_shells": {
+    "case_fractions": [
+      [
+        0.7,
+        0.2,
+        0.1
+      ],
+      [
+        0.1,
+        0.2,
+        0.7
+      ]
+    ],
+    "interior_at_35m_dimensionless_difference": 19.591836734693878,
+    "max_exterior_dimensionless_difference": 0.0,
+    "shell_radii_m": [
+      20,
+      45,
+      75
+    ]
+  },
+  "synthetic": true,
+  "synthetic_noise_sweep": [
+    {
+      "mean_l1_share_error": 1.1102230246251565e-15,
+      "mean_l2_share_error": 4.827396019292964e-16,
+      "mean_squared_residual": 2.1570415377137042e-32,
+      "noise_sigma_in_reference_g": 0,
+      "noise_sigma_m_s2": 0.0,
+      "trials": 100
+    },
+    {
+      "mean_l1_share_error": 0.0015836112485111164,
+      "mean_l2_share_error": 0.0007390937619939821,
+      "mean_squared_residual": 1.8122150236849806e-07,
+      "noise_sigma_in_reference_g": 0.0001,
+      "noise_sigma_m_s2": 1.8565400672796662e-28,
+      "trials": 100
+    },
+    {
+      "mean_l1_share_error": 0.015783892692537917,
+      "mean_l2_share_error": 0.007366021071807137,
+      "mean_squared_residual": 1.819862579087246e-05,
+      "noise_sigma_in_reference_g": 0.001,
+      "noise_sigma_m_s2": 1.8565400672796662e-27,
+      "trials": 100
+    },
+    {
+      "mean_l1_share_error": 0.14928383506837975,
+      "mean_l2_share_error": 0.07079213562282587,
+      "mean_squared_residual": 0.0017918806581195424,
+      "noise_sigma_in_reference_g": 0.01,
+      "noise_sigma_m_s2": 1.856540067279666e-26,
+      "trials": 100
+    },
+    {
+      "mean_l1_share_error": 0.7314707132050755,
+      "mean_l2_share_error": 0.34784587099769176,
+      "mean_squared_residual": 0.19778712950412725,
+      "noise_sigma_in_reference_g": 0.1,
+      "noise_sigma_m_s2": 1.856540067279666e-25,
+      "trials": 100
+    }
+  ],
+  "true_energy_fractions": [
+    0.35,
+    0.08,
+    0.19,
+    0.14,
+    0.11,
+    0.13
+  ]
+}

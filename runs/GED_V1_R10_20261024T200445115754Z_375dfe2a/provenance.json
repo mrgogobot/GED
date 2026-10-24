@@ -1,0 +1,32 @@
+{
+  "command": "python ged_v1_r10.py",
+  "experiment_id": "GED-V1-R10",
+  "git": {
+    "commit": null,
+    "git_commit_covers_this_experiment": false,
+    "working_tree_dirty": null
+  },
+  "input_sha256": {
+    "GED_V1_R10_DEV_AUDIT.md": "c17f8a27dbdb2ad16999a9689e307ee87624f512f853d93ee923d9ae66f77380",
+    "GED_V1_R10_FAILURE_A.log": "b24d88568615c3766ce2df2a230179d423189ebd808d24d4d37e4551a740c438",
+    "GED_V1_R10_PRIOR_EVIDENCE.json": "e9b3b7bc7206bad25c65668394b822b7d37fc1018ad6f7e7ca2c82560688290d",
+    "GED_V1_R10_README.md": "ef069032c04b0770d2781ccf44c92226f372d098a756599f35199758bc9f1842",
+    "GED_V1_R10_config.json": "14b6ad4927bd5c16d2540008d00fa2b3d01dd3eddd7969ab47c8555a3c5951b0",
+    "ged_v1_r10.py": "d17491c633e0b00add9f9796aeaad2d6d342b0f336cf5c506d5cb1deec510687",
+    "test_ged_v1_r10.py": "e6b722369fa3c563613e643429a9b509de9d2053f0ffd3efbb49de7a2da6db55"
+  },
+  "output_sha256": {
+    "radial_samples.csv": "dfbc42b2715945b2521215040368ea403ea7246ff88472b8c1953f07cde8e53b",
+    "report.txt": "d2a63d73437190262e4f586120d94391dbc59d536aeaa3a19131e237cfdc7697",
+    "results.json": "8ba13d3358c0892b55511ac4ec15563622e732e2f7c75bcb4f751718bdc59a12",
+    "tests.txt": "033e2b8bc3ec2b4117ebd02594f74d700f4a499bba5c2767b43c1205a17fcd12"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "publication": "LOCAL_ONLY; do not push or submit to Zenodo without explicit approval",
+  "python": "3.13.17",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "run_utc": "20261024T200445115754Z",
+  "scientific_verdict": "Numerical Newtonian control; no new physics established",
+  "test_command": "python -m unittest -v test_ged_v1_r10.py",
+  "test_exit_code": 0
+}

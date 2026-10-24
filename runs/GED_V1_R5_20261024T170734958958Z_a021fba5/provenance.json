@@ -1,0 +1,57 @@
+{
+  "acceptance_status": "LOCAL_NUMERICAL_TEST_PASS_PENDING_EXTERNAL_AUDIT",
+  "command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/ged_v1_r5.py",
+    "--config",
+    "GED_V1_R5_config.json"
+  ],
+  "dependencies": "Python standard library; exact SHA-pinned GED-V1-R2 source",
+  "experiment_id": "GED-V1-R5",
+  "git": {
+    "commit": null,
+    "dirty": null,
+    "exact_tag": null
+  },
+  "input_SHA256": {
+    "GED_V1_R5_DEV_AUDIT.md": "0d5d32f30de3c8ce2b8cdaaedbd16c2c4b94c3ea8ee36da8975445fda15b2425",
+    "GED_V1_R5_PRECISION_FAILURE_A.log": "45e32f6ab79bfa00eda38d7cc0063e6764ea24b42918f0812c869f67ed981934",
+    "GED_V1_R5_README.md": "319ff0f53845cebaf9db64b2b4cb6b23172826797a6c26380a53944c289d93c1",
+    "GED_V1_R5_config.json": "a885e3a8971b129d32729b13473324c928ab711eb3fa998018e12cc9a6efa5d7",
+    "ged_v1_r2.py": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+    "ged_v1_r5.py": "608b67e91756e26667818743cdb906d487eeae65ca3d3f1de350bd87af50749d",
+    "test_ged_v1_r5.py": "9c399f6b2aaa4de2cd47cb65687979157278fd89de8aef2d0ea41d3e9513a04d"
+  },
+  "limitations": [
+    "Young's moduli are illustrative literature values obtained under differing temperatures and measurement conditions, not guaranteed values for arbitrary asteroids.",
+    "Uniaxial, isotropic, infinitesimal, Hookean, reversible elastic response only; no failure, creep, plasticity, anisotropy, porosity or phase change.",
+    "Fixed nominal reference volume and a far-field point-monopole gravitational proxy. Changes of shape, direction, supports and tensor stresses are not solved.",
+    "E/c^2 accounts for stored mechanical energy in a chosen sample boundary; loading reduces energy elsewhere in the apparatus. Not an isolated gravitational source creation.",
+    "Full general relativity, boundary/support stress-energy and non-spherical multipoles are not calculated. The proxy is not an exact change in the full field of a loaded sample.",
+    "No entropy number is computed because dissipative entropy depends on temperature and transport path.",
+    "No additional information channel, interaction instruction field or novel gravitational coupling is assumed, derived or experimentally detected."
+  ],
+  "machine": "arm64",
+  "output_SHA256": {
+    "elastic_cases.csv": "60b3f6cbc443d63a683109cfb275138ebf0a8e4b0de40bdad7b44038e1ef2348",
+    "report.txt": "9733d524a5d6d88903ffad09c30e4261fe648ee33b0085e806f49ef54feb29c5",
+    "results.json": "73b1b54824dd6c03c0be90ca8ee3c352b31e5604e9f71824f38a37e6aa60304a",
+    "tests.txt": "17fd7984a4ef2f98e15c2b940499e27b2168ed3379cf3baa20d1dad7fe7e5ae0"
+  },
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "r2_dependency_actual_SHA256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "r2_dependency_expected_SHA256": "c1c8bd268fcfad2f8dea23bba703ef04284ced2590680584ccfa263cd9010813",
+  "run_id": "GED_V1_R5_20261024T170734958958Z_a021fba5",
+  "test_command": [
+    "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+    "-B",
+    "-m",
+    "unittest",
+    "-v",
+    "test_ged_v1_r5.py"
+  ],
+  "test_exit_status": 0,
+  "utc_start": "2026-10-24T17:07:34.958958+00:00"
+}

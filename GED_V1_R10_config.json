@@ -1,0 +1,36 @@
+{
+  "experiment_id": "GED-V1-R10",
+  "G_m3_kg_s2": "6.67430e-11",
+  "c_m_s": "299792458",
+  "shell_boundaries_m": ["0", "20", "50", "100"],
+  "inventory_A": {
+    "label": "inventory_A",
+    "shell_total_mass_energy_kg": ["2000000000", "3000000000", "5000000000"],
+    "shell_binding_energy_j": ["-200000000", "-300000000", "-400000000"],
+    "description": "Synthetic aggregate constituent inventory A; rest-equivalent and binding-energy split"
+  },
+  "inventory_B": {
+    "label": "inventory_B",
+    "shell_total_mass_energy_kg": ["3000000000", "2000000000", "5000000000"],
+    "shell_binding_energy_j": ["-200000000", "-300000000", "-400000000"],
+    "description": "Same total source mass-energy as A; different radial distribution"
+  },
+  "inventory_C": {
+    "label": "inventory_C",
+    "shell_total_mass_energy_kg": ["2000000000", "3000000000", "5000000000"],
+    "shell_binding_energy_j": ["-500000000", "-100000000", "-300000000"],
+    "description": "Same shell total energy as A; different synthetic constituent-rest/binding split"
+  },
+  "probe_radii_m": ["10", "35", "75", "100", "150", "300"],
+  "inverse_exterior_radii_m": ["150", "200", "300"],
+  "inverse_interior_radii_m": ["10", "35", "75"],
+  "scientific_scope": {
+    "numerical_only": true,
+    "new_gravity_detected": false,
+    "general_relativity_solved": false,
+    "atomic_binding_measured": false,
+    "real_material_microphysics_modeled": false,
+    "equilibrium_or_thermal_pressure_modeled": false,
+    "source_geometry_assumed": true
+  }
+}

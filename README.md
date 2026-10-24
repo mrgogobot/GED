@@ -41,3 +41,7 @@ Run from a disposable copy if you want to leave the release tree unchanged: runn
 ## Publication status
 
 Published on 24 October 2026 with author approval: [GitHub release `ged-v1-r4`](https://github.com/mrgogobot/GED/releases/tag/ged-v1-r4), [Zenodo archive](https://zenodo.org/records/23622641), DOI [10.5281/zenodo.23622641](https://doi.org/10.5281/zenodo.23622641). The release points to commit `6fb5b5e91a072451809e3acab61e3ed643790b33`. Publication tracking on main was updated afterward; the tag and deposited bytes remain unchanged. See `PUBLICATION.json` for provenance. Creator: **Malin Hess**. Code is licensed under **MIT**; documentation, configurations, data and research outputs are licensed under **CC BY-NC 4.0**. See `LICENSE.md` for scope and `LICENSE-MIT` for code terms. The noncommercial restriction applies to research materials; code remains available under MIT terms.
+
+## V1-R10 local release candidate
+
+The next checkpoint adds R5–R10 and both independent audit reports. Fresh verification passed 388/388 tests and 70/70 original checksum entries; all 13 numerical outputs reproduce byte for byte. See [release scope, caveats and reproduction](RELEASE_R10.md). This candidate is awaiting explicit publication approval; the R4 publication links above remain historical.

@@ -1,0 +1,88 @@
+GED-V1-R6 — RADIAL STRESS-ENERGY DISTRIBUTION SCOUT
+=====================================================================
+CONVENTIONAL WEAK-FIELD NEWTONIAN MASS-ENERGY PROXY ONLY
+NOT A SOLUTION OF THE FULL STRESS-ENERGY TENSOR / EINSTEIN EQUATIONS
+Core rest mass: 4.120722363959E+9 kg
+Shell rest mass: 3.360980540565E+9 kg
+Total retained elastic energy per configuration: 1.000000000000E+8 J
+
+core_weighted:
+  core: U=7.500000000000E+7 J; energy density=1.432394487827E+2 J/m^3; strain=3.709419543660E-5
+  shell: U=2.500000000000E+7 J; energy density=6.820926132510E+0 J/m^3; strain=3.857020997613E-5
+
+shell_weighted:
+  core: U=2.500000000000E+7 J; energy density=4.774648292757E+1 J/m^3; strain=2.141634372069E-5
+  shell: U=7.500000000000E+7 J; energy density=2.046277839753E+1 J/m^3; strain=6.680556333726E-5
+
+RADIUS / DIFFERENCE IN MASS-ENERGY GRAVITY PROXY:
+  r=0 m: delta_g(core-weighted - shell-weighted)=0.000000000000E+12 m/s^2
+  r=25 m: delta_g(core-weighted - shell-weighted)=7.426160269119E-24 m/s^2
+  r=50 m: delta_g(core-weighted - shell-weighted)=1.485232053824E-23 m/s^2
+  r=75 m: delta_g(core-weighted - shell-weighted)=4.361395713609E-24 m/s^2
+  r=100 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-81 m/s^2
+  r=200 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-81 m/s^2
+  r=1000 m: delta_g(core-weighted - shell-weighted)=0.000000000000E-83 m/s^2
+
+Repartition ledger: core + shell = 0 J; no energy is created.
+Conventional prediction: DIFFERENT INTERNAL correction; IDENTICAL EXTERIOR correction.
+Model assumes spherical energy density without solving elastic equilibrium.
+No novel interaction field derived, observed or confirmed.
+Tests: PASS; scientific claim restricted to the specified numerical proxy.
+
+Results and receipts: /private/var/folders/46/9jbjl7xn7l51__zl_mk21q140000gn/T/tmp_mz8mrdh/runs/GED_V1_R6_20261024T202517182668Z_2665972a
+test_analytic_core_volume (test_ged_v1_r6.GEDR6Tests.test_analytic_core_volume) ... ok
+test_baseline_same_at_all_radii (test_ged_v1_r6.GEDR6Tests.test_baseline_same_at_all_radii) ... ok
+test_center_energy_enclosed_zero (test_ged_v1_r6.GEDR6Tests.test_center_energy_enclosed_zero) ... ok
+test_center_gravity_zero (test_ged_v1_r6.GEDR6Tests.test_center_gravity_zero) ... ok
+test_core_boundary_difference_is_nonzero (test_ged_v1_r6.GEDR6Tests.test_core_boundary_difference_is_nonzero) ... ok
+test_core_boundary_independent_formula (test_ged_v1_r6.GEDR6Tests.test_core_boundary_independent_formula) ... ok
+test_core_loading_has_larger_inner_correction (test_ged_v1_r6.GEDR6Tests.test_core_loading_has_larger_inner_correction) ... ok
+test_core_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_core_weighted_energy) ... ok
+test_dependency_checker (test_ged_v1_r6.GEDR6Tests.test_dependency_checker) ... ok
+test_each_case_has_same_material_inventory (test_ged_v1_r6.GEDR6Tests.test_each_case_has_same_material_inventory) ... ok
+test_elastic_density_in_pascal (test_ged_v1_r6.GEDR6Tests.test_elastic_density_in_pascal) ... ok
+test_enclosed_fraction_inner_bounds (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_inner_bounds) ... ok
+test_enclosed_fraction_shell_before_core (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_before_core) ... ok
+test_enclosed_fraction_shell_outer (test_ged_v1_r6.GEDR6Tests.test_enclosed_fraction_shell_outer) ... ok
+test_energy_repartition_conserves (test_ged_v1_r6.GEDR6Tests.test_energy_repartition_conserves) ... ok
+test_equal_total_allocated_energy (test_ged_v1_r6.GEDR6Tests.test_equal_total_allocated_energy) ... ok
+test_experiment_id (test_ged_v1_r6.GEDR6Tests.test_experiment_id) ... ok
+test_exterior_delta_fields_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_delta_fields_equal) ... ok
+test_exterior_full_total_field_equal (test_ged_v1_r6.GEDR6Tests.test_exterior_full_total_field_equal) ... ok
+test_exterior_inverse_square (test_ged_v1_r6.GEDR6Tests.test_exterior_inverse_square) ... ok
+test_exterior_monopole_independent_formula (test_ged_v1_r6.GEDR6Tests.test_exterior_monopole_independent_formula) ... ok
+test_ice_strain_small (test_ged_v1_r6.GEDR6Tests.test_ice_strain_small) ... ok
+test_independent_total_rest_mass (test_ged_v1_r6.GEDR6Tests.test_independent_total_rest_mass) ... ok
+test_internal_field_difference_at_75m (test_ged_v1_r6.GEDR6Tests.test_internal_field_difference_at_75m) ... ok
+test_invalid_bad_fraction (test_ged_v1_r6.GEDR6Tests.test_invalid_bad_fraction) ... ok
+test_invalid_config_id (test_ged_v1_r6.GEDR6Tests.test_invalid_config_id) ... ok
+test_invalid_core_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_core_radius) ... ok
+test_invalid_duplicate_sample (test_ged_v1_r6.GEDR6Tests.test_invalid_duplicate_sample) ... ok
+test_invalid_equal_shell_bounds (test_ged_v1_r6.GEDR6Tests.test_invalid_equal_shell_bounds) ... ok
+test_invalid_missing_outer_boundary (test_ged_v1_r6.GEDR6Tests.test_invalid_missing_outer_boundary) ... ok
+test_invalid_negative_energy (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_energy) ... ok
+test_invalid_negative_modulus (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_modulus) ... ok
+test_invalid_negative_radius (test_ged_v1_r6.GEDR6Tests.test_invalid_negative_radius) ... ok
+test_invalid_nonfinite (test_ged_v1_r6.GEDR6Tests.test_invalid_nonfinite) ... ok
+test_invalid_reversed_fractions (test_ged_v1_r6.GEDR6Tests.test_invalid_reversed_fractions) ... ok
+test_invalid_wrong_R5_pin (test_ged_v1_r6.GEDR6Tests.test_invalid_wrong_R5_pin) ... ok
+test_iron_strain_small (test_ged_v1_r6.GEDR6Tests.test_iron_strain_small) ... ok
+test_mass_equivalence_fixed_at_exterior (test_ged_v1_r6.GEDR6Tests.test_mass_equivalence_fixed_at_exterior) ... ok
+test_no_claim_of_detection (test_ged_v1_r6.GEDR6Tests.test_no_claim_of_detection) ... ok
+test_pinned_dependency_failure_is_detected (test_ged_v1_r6.GEDR6Tests.test_pinned_dependency_failure_is_detected) ... ok
+test_pinned_r2_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r2_exact_sha256) ... ok
+test_pinned_r5_exact_sha256 (test_ged_v1_r6.GEDR6Tests.test_pinned_r5_exact_sha256) ... ok
+test_sample_radii_sorted (test_ged_v1_r6.GEDR6Tests.test_sample_radii_sorted) ... ok
+test_scientific_limits_are_present (test_ged_v1_r6.GEDR6Tests.test_scientific_limits_are_present) ... ok
+test_serialization_preserves_small_values (test_ged_v1_r6.GEDR6Tests.test_serialization_preserves_small_values) ... ok
+test_shell_fraction_75m_analytic (test_ged_v1_r6.GEDR6Tests.test_shell_fraction_75m_analytic) ... ok
+test_shell_volume_seven_times_core (test_ged_v1_r6.GEDR6Tests.test_shell_volume_seven_times_core) ... ok
+test_shell_weighted_energy (test_ged_v1_r6.GEDR6Tests.test_shell_weighted_energy) ... ok
+test_source_manifest_files_exist (test_ged_v1_r6.GEDR6Tests.test_source_manifest_files_exist) ... ok
+test_standalone_clean_directory_run_and_receipts (test_ged_v1_r6.GEDR6Tests.test_standalone_clean_directory_run_and_receipts) ... ok
+test_zero_energy_enclosed_inside_shell_center (test_ged_v1_r6.GEDR6Tests.test_zero_energy_enclosed_inside_shell_center) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.059s
+
+OK

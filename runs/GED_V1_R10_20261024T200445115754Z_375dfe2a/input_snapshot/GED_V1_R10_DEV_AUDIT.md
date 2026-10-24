@@ -1,0 +1,9 @@
+# GED-V1-R10 development and scientific audit
+
+- **Objective:** Separate aggregate constituent energy bookkeeping from Newtonian radial gravitational source terms and test the inverse map's information loss.
+- **Established model:** Three uniform spherical shells; static Newtonian source. Under shell theorem, exterior field depends only on the sum of shell masses. With three known radial zones, interior measurements may distinguish different allocations.
+- **New mechanism:** None derived, built, or observed. CCMEI is terminology for an inventory, not a new physical variable entering the field equations.
+- **Potential confusion expressly quarantined:** A versus C uses different synthetic binding/rest energy ledgers with identical shell totals. Not a claim that real materials can be reconfigured at fixed full stress-energy without other consequences. Thermal and mechanical pressure omitted.
+- **Preserved first development failure:** `GED_V1_R10_FAILURE_A.log` shows one missing-document fixture failure during initial construction and one type mismatch in an independent unit test (`Fraction * Decimal`). The physics calculation had already passed. Fixed the test by explicitly converting Decimal mass to exact Fraction, and created the required documentation. Both historical failures are retained. No physical equation changed.
+- **Provenance policy:** This local R10 package does not touch GitHub or Zenodo. Input snapshot and hashes recorded for each official run; source Git revision recorded only if available. Publication remains subject to user approval.
+- **Prior audit coverage:** Prior numerical PASS reports are drawn from user-shared local stdout and the two reviewed audit archives. Most prior on-Mac run directories have not been independently inspected. Do not treat R10 ledger as a global provenance audit.

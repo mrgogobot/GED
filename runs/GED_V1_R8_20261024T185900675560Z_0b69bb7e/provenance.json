@@ -1,0 +1,32 @@
+{
+  "config_file": "GED_V1_R8_config.json",
+  "dependencies": {
+    "stdlib": true,
+    "third_party": []
+  },
+  "experiment_id": "GED-V1-R8",
+  "git": {
+    "available": true,
+    "repository": false
+  },
+  "implementation": "CPython",
+  "input_sha256": {
+    "GED_V1_R8_DEV_AUDIT.md": "4886cf4f538bbdf44a16d273ee8f03413fc10e0d745ab6783589aa670faf8f67",
+    "GED_V1_R8_README.md": "f099e75adbe71749d1ad362ebd61dcb6bb3814076c3c14e3b0b9e9fa343b852c",
+    "GED_V1_R8_config.json": "ce48e1622012a67172b543b75880dec78a8230d9ac16f68e090760c9983a14b9",
+    "ged_v1_r8.py": "8c6cfa4ec9e7a9168d110beafe6ef82e4da565d1bc844e023d9e4a1bb132327f",
+    "test_ged_v1_r8.py": "02345e634aee1fe38c5653ac19a45fec4f8e468e5f4c282a63f6216c44d1651e"
+  },
+  "limitation": "Synthetic Newtonian inverse control; not observational evidence",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "publication_status": "LOCAL_ONLY_NO_GITHUB_NO_ZENODO_UNTIL_V1_R10",
+  "python_executable": "/Users/turnipresearchlibrary/Desktop/Cosmology/GED/.venv/bin/python",
+  "python_version": "3.13.17 (main, Oct 21 2026, 17:49:18) [Clang 23.1.3 ]",
+  "random_seed": 4102418,
+  "run_command": "python ged_v1_r8.py",
+  "scientific_scope": "restricted known-template classification; known added energy and exact baseline subtraction",
+  "start_utc_from_run_dir": "20261024T185900675560Z",
+  "test_count_expected": 71,
+  "test_return_code": 0,
+  "verification_command": "python -m unittest -v test_ged_v1_r8.py"
+}
